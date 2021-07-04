@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A*Morale]]></title><description><![CDATA[a*m thoughts trash can]]></description><link>https://alessiomorale.github.io/gatsby_test</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Jul 2021 18:52:29 GMT</lastBuildDate><item><title><![CDATA[Slammer]]></title><description><![CDATA[This project started a few years ago as my learning platform for robotic in general and ROS. At that time i was working mostly with drones…]]></description><link>https://alessiomorale.github.io/gatsby_test/slammer/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/slammer/</guid><pubDate>Wed, 16 Jun 2021 23:02:29 GMT</pubDate><content:encoded>&lt;p&gt;This project started a few years ago as my learning platform for robotic in general and ROS.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A*Morale]]></title><description><![CDATA[a*m thoughts trash can]]></description><link>https://alessiomorale.github.io/gatsby_test</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Jul 2021 19:07:35 GMT</lastBuildDate><item><title><![CDATA[Slammer]]></title><description><![CDATA[This project started a few years ago as my learning platform for robotic in general and ROS. At that time i was working mostly with drones…]]></description><link>https://alessiomorale.github.io/gatsby_test/slammer/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/slammer/</guid><pubDate>Wed, 16 Jun 2021 23:02:29 GMT</pubDate><content:encoded>&lt;p&gt;This project started a few years ago as my learning platform for robotic in general and ROS.&lt;/p&gt;
 &lt;p&gt;At that time i was working mostly with drones, but I realised that testing things like mapping and navigation would have been much more harder and almost impossible indoor. For this reason, I started learning the basics of rovers and mobile robotics. Thus Slammer was born.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#slammer&quot;&gt;Slammer&lt;/a&gt;&lt;/li&gt;
@@ -10,7 +10,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/38e95198e9eee262af35881373b3a9cb/ea20a/IMG_20210114_224713.jpg&quot;
+    href=&quot;/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/ea20a/IMG_20210114_224713.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -26,32 +26,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/38e95198e9eee262af35881373b3a9cb/53e9f/IMG_20210114_224713.webp 340w,
-/static/38e95198e9eee262af35881373b3a9cb/0991f/IMG_20210114_224713.webp 680w,
-/static/38e95198e9eee262af35881373b3a9cb/9d77c/IMG_20210114_224713.webp 1360w,
-/static/38e95198e9eee262af35881373b3a9cb/27063/IMG_20210114_224713.webp 2040w,
-/static/38e95198e9eee262af35881373b3a9cb/82c87/IMG_20210114_224713.webp 2720w,
-/static/38e95198e9eee262af35881373b3a9cb/afc5a/IMG_20210114_224713.webp 3325w&quot;
+          srcset=&quot;/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/53e9f/IMG_20210114_224713.webp 340w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/0991f/IMG_20210114_224713.webp 680w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/9d77c/IMG_20210114_224713.webp 1360w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/27063/IMG_20210114_224713.webp 2040w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/82c87/IMG_20210114_224713.webp 2720w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/afc5a/IMG_20210114_224713.webp 3325w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/38e95198e9eee262af35881373b3a9cb/a0703/IMG_20210114_224713.jpg 340w,
-/static/38e95198e9eee262af35881373b3a9cb/5041d/IMG_20210114_224713.jpg 680w,
-/static/38e95198e9eee262af35881373b3a9cb/fe1b8/IMG_20210114_224713.jpg 1360w,
-/static/38e95198e9eee262af35881373b3a9cb/25fce/IMG_20210114_224713.jpg 2040w,
-/static/38e95198e9eee262af35881373b3a9cb/9bc5d/IMG_20210114_224713.jpg 2720w,
-/static/38e95198e9eee262af35881373b3a9cb/ea20a/IMG_20210114_224713.jpg 3325w&quot;
+          srcset=&quot;/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/a0703/IMG_20210114_224713.jpg 340w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/5041d/IMG_20210114_224713.jpg 680w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/fe1b8/IMG_20210114_224713.jpg 1360w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/25fce/IMG_20210114_224713.jpg 2040w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/9bc5d/IMG_20210114_224713.jpg 2720w,
+/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/ea20a/IMG_20210114_224713.jpg 3325w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/38e95198e9eee262af35881373b3a9cb/fe1b8/IMG_20210114_224713.jpg&quot;
+          src=&quot;/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/fe1b8/IMG_20210114_224713.jpg&quot;
           alt=&quot;Slammer&quot;
           title=&quot;&quot;
-          src=&quot;/static/38e95198e9eee262af35881373b3a9cb/fe1b8/IMG_20210114_224713.jpg&quot;
+          src=&quot;/gatsby_test/static/38e95198e9eee262af35881373b3a9cb/fe1b8/IMG_20210114_224713.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -61,11 +61,11 @@
     &lt;/p&gt;
 &lt;p&gt;In its current configuration it uses four gearmotors for its locomotion using the &lt;a href=&quot;https://alessiomorale.com/wordpress/2020/02/03/unav2-integrated-board-prototype&quot;&gt;uNav2 prototype&lt;/a&gt;. Currently it handles feedback (encoders) on two motors only, the other two (identical) motors are simply wired in parallel. Not exactly optimal, this will be handled in future with an additional board, as soon as firmware and hardware are in a more reliable status than MVP.&lt;/s&gt;&lt;/p&gt;
 &lt;p&gt;Recently I update the mechanical part using two planetary gear motors and a system of pulley and belts to link front and rear wheels on each side.&lt;/p&gt;
-&lt;p&gt;The control board is still my trusted &lt;a href=&quot;/2020/02/03/unav2-integrated-board-prototype/&quot;&gt;UNAV2 prototype&lt;/a&gt; (links to the &lt;a href=&quot;https://github.com/AlessioMorale/unav2_hardware/tree/master/integrated_board&quot;&gt;hardware&lt;/a&gt;, &lt;a href=&quot;https://github.com/AlessioMorale/unav2_stm32&quot;&gt;firmware&lt;/a&gt; and &lt;a href=&quot;https://github.com/AlessioMorale/unav2_ros&quot;&gt;ROS drivers&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The control board is still my trusted &lt;a href=&quot;/gatsby_test/2020/02/03/unav2-integrated-board-prototype/&quot;&gt;UNAV2 prototype&lt;/a&gt; (links to the &lt;a href=&quot;https://github.com/AlessioMorale/unav2_hardware/tree/master/integrated_board&quot;&gt;hardware&lt;/a&gt;, &lt;a href=&quot;https://github.com/AlessioMorale/unav2_stm32&quot;&gt;firmware&lt;/a&gt; and &lt;a href=&quot;https://github.com/AlessioMorale/unav2_ros&quot;&gt;ROS drivers&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4ded19c71f4de9b568de658c580a9a70/071e2/DSC8028.jpg&quot;
+    href=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/071e2/DSC8028.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -81,28 +81,28 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/4ded19c71f4de9b568de658c580a9a70/53e9f/DSC8028.webp 340w,
-/static/4ded19c71f4de9b568de658c580a9a70/0991f/DSC8028.webp 680w,
-/static/4ded19c71f4de9b568de658c580a9a70/9d77c/DSC8028.webp 1360w,
-/static/4ded19c71f4de9b568de658c580a9a70/24475/DSC8028.webp 2000w&quot;
+          srcset=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/53e9f/DSC8028.webp 340w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/0991f/DSC8028.webp 680w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/9d77c/DSC8028.webp 1360w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/24475/DSC8028.webp 2000w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/4ded19c71f4de9b568de658c580a9a70/a0703/DSC8028.jpg 340w,
-/static/4ded19c71f4de9b568de658c580a9a70/5041d/DSC8028.jpg 680w,
-/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg 1360w,
-/static/4ded19c71f4de9b568de658c580a9a70/071e2/DSC8028.jpg 2000w&quot;
+          srcset=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/a0703/DSC8028.jpg 340w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/5041d/DSC8028.jpg 680w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg 1360w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/071e2/DSC8028.jpg 2000w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg&quot;
+          src=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg&quot;
           alt=&quot;uNav2&quot;
           title=&quot;&quot;
-          src=&quot;/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg&quot;
+          src=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -120,7 +120,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg&quot;
+    href=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -136,32 +136,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/53e9f/IMG_20210321_235444.webp 340w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/0991f/IMG_20210321_235444.webp 680w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/9d77c/IMG_20210321_235444.webp 1360w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/27063/IMG_20210321_235444.webp 2040w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/82c87/IMG_20210321_235444.webp 2720w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/5aae3/IMG_20210321_235444.webp 3112w&quot;
+          srcset=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/53e9f/IMG_20210321_235444.webp 340w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/0991f/IMG_20210321_235444.webp 680w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/9d77c/IMG_20210321_235444.webp 1360w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/27063/IMG_20210321_235444.webp 2040w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/82c87/IMG_20210321_235444.webp 2720w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/5aae3/IMG_20210321_235444.webp 3112w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/a0703/IMG_20210321_235444.jpg 340w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/5041d/IMG_20210321_235444.jpg 680w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg 1360w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/25fce/IMG_20210321_235444.jpg 2040w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/9bc5d/IMG_20210321_235444.jpg 2720w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg 3112w&quot;
+          srcset=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/a0703/IMG_20210321_235444.jpg 340w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/5041d/IMG_20210321_235444.jpg 680w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg 1360w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/25fce/IMG_20210321_235444.jpg 2040w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/9bc5d/IMG_20210321_235444.jpg 2720w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg 3112w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
+          src=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
           alt=&quot;Jetson Nano&quot;
           title=&quot;&quot;
-          src=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
+          src=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -179,7 +179,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4ed649a7a6689241c657b1d83511852e/8ca8e/img_20190916_2207583040884031757302502.jpg&quot;
+    href=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/8ca8e/img_20190916_2207583040884031757302502.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -195,32 +195,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/4ed649a7a6689241c657b1d83511852e/53e9f/img_20190916_2207583040884031757302502.webp 340w,
-/static/4ed649a7a6689241c657b1d83511852e/0991f/img_20190916_2207583040884031757302502.webp 680w,
-/static/4ed649a7a6689241c657b1d83511852e/9d77c/img_20190916_2207583040884031757302502.webp 1360w,
-/static/4ed649a7a6689241c657b1d83511852e/27063/img_20190916_2207583040884031757302502.webp 2040w,
-/static/4ed649a7a6689241c657b1d83511852e/82c87/img_20190916_2207583040884031757302502.webp 2720w,
-/static/4ed649a7a6689241c657b1d83511852e/476fa/img_20190916_2207583040884031757302502.webp 3000w&quot;
+          srcset=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/53e9f/img_20190916_2207583040884031757302502.webp 340w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/0991f/img_20190916_2207583040884031757302502.webp 680w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/9d77c/img_20190916_2207583040884031757302502.webp 1360w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/27063/img_20190916_2207583040884031757302502.webp 2040w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/82c87/img_20190916_2207583040884031757302502.webp 2720w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/476fa/img_20190916_2207583040884031757302502.webp 3000w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/4ed649a7a6689241c657b1d83511852e/a0703/img_20190916_2207583040884031757302502.jpg 340w,
-/static/4ed649a7a6689241c657b1d83511852e/5041d/img_20190916_2207583040884031757302502.jpg 680w,
-/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg 1360w,
-/static/4ed649a7a6689241c657b1d83511852e/25fce/img_20190916_2207583040884031757302502.jpg 2040w,
-/static/4ed649a7a6689241c657b1d83511852e/9bc5d/img_20190916_2207583040884031757302502.jpg 2720w,
-/static/4ed649a7a6689241c657b1d83511852e/8ca8e/img_20190916_2207583040884031757302502.jpg 3000w&quot;
+          srcset=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/a0703/img_20190916_2207583040884031757302502.jpg 340w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/5041d/img_20190916_2207583040884031757302502.jpg 680w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg 1360w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/25fce/img_20190916_2207583040884031757302502.jpg 2040w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/9bc5d/img_20190916_2207583040884031757302502.jpg 2720w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/8ca8e/img_20190916_2207583040884031757302502.jpg 3000w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg&quot;
+          src=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg&quot;
           alt=&quot;PS4 Joypad&quot;
           title=&quot;&quot;
-          src=&quot;/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg&quot;
+          src=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -231,7 +231,7 @@
 &lt;h2&gt;Video&lt;/h2&gt;
 &lt;p&gt;Below a simple test after installing the four new motors and the unav2 prototype.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;youtube: https://www.youtube.com/watch?v=1pnrorfGNso&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Find additional Slammer related blog entries &lt;a href=&quot;/tags/slammer&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creating Docker images for Jetson Nano on your desktop]]></title><description><![CDATA[In this article I will show the workflow I’m using to be able to build Docker containers to be deployed on a Jetson Nano using my desktop…]]></description><link>https://alessiomorale.github.io/gatsby_test/2021-03-22-creating-docker-images-for-jetson-nano-on-your-desktop/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2021-03-22-creating-docker-images-for-jetson-nano-on-your-desktop/</guid><pubDate>Mon, 22 Mar 2021 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In this article I will show the workflow I’m using to be able to build Docker containers to be deployed on a Jetson Nano using my desktop machine.&lt;/p&gt;
+&lt;p&gt;Find additional Slammer related blog entries &lt;a href=&quot;/gatsby_test/tags/slammer&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Creating Docker images for Jetson Nano on your desktop]]></title><description><![CDATA[In this article I will show the workflow I’m using to be able to build Docker containers to be deployed on a Jetson Nano using my desktop…]]></description><link>https://alessiomorale.github.io/gatsby_test/2021-03-22-creating-docker-images-for-jetson-nano-on-your-desktop/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2021-03-22-creating-docker-images-for-jetson-nano-on-your-desktop/</guid><pubDate>Mon, 22 Mar 2021 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In this article I will show the workflow I’m using to be able to build Docker containers to be deployed on a Jetson Nano using my desktop machine.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#rationale&quot;&gt;Rationale&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#qemu&quot;&gt;QEMU&lt;/a&gt;&lt;/li&gt;
@@ -242,7 +242,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg&quot;
+    href=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -258,32 +258,32 @@
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/53e9f/IMG_20210321_235444.webp 340w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/0991f/IMG_20210321_235444.webp 680w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/9d77c/IMG_20210321_235444.webp 1360w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/27063/IMG_20210321_235444.webp 2040w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/82c87/IMG_20210321_235444.webp 2720w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/5aae3/IMG_20210321_235444.webp 3112w&quot;
+          srcset=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/53e9f/IMG_20210321_235444.webp 340w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/0991f/IMG_20210321_235444.webp 680w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/9d77c/IMG_20210321_235444.webp 1360w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/27063/IMG_20210321_235444.webp 2040w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/82c87/IMG_20210321_235444.webp 2720w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/5aae3/IMG_20210321_235444.webp 3112w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/a0703/IMG_20210321_235444.jpg 340w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/5041d/IMG_20210321_235444.jpg 680w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg 1360w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/25fce/IMG_20210321_235444.jpg 2040w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/9bc5d/IMG_20210321_235444.jpg 2720w,
-/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg 3112w&quot;
+          srcset=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/a0703/IMG_20210321_235444.jpg 340w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/5041d/IMG_20210321_235444.jpg 680w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg 1360w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/25fce/IMG_20210321_235444.jpg 2040w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/9bc5d/IMG_20210321_235444.jpg 2720w,
+/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/56368/IMG_20210321_235444.jpg 3112w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
+          src=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
           alt=&quot;Jetson Nano&quot;
           title=&quot;&quot;
-          src=&quot;/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
+          src=&quot;/gatsby_test/static/fcb74c3850e703ed754f05e7bb58ae04/fe1b8/IMG_20210321_235444.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -312,7 +312,7 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png&quot;
+    href=&quot;/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -328,26 +328,26 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/8e0bcfed719e21f05be97bf4714c730b/53e9f/htop.webp 340w,
-/static/8e0bcfed719e21f05be97bf4714c730b/0991f/htop.webp 680w,
-/static/8e0bcfed719e21f05be97bf4714c730b/ecaf8/htop.webp 1000w&quot;
+          srcset=&quot;/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/53e9f/htop.webp 340w,
+/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/0991f/htop.webp 680w,
+/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/ecaf8/htop.webp 1000w&quot;
           sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/8e0bcfed719e21f05be97bf4714c730b/a2595/htop.png 340w,
-/static/8e0bcfed719e21f05be97bf4714c730b/2473e/htop.png 680w,
-/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png 1000w&quot;
+          srcset=&quot;/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/a2595/htop.png 340w,
+/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/2473e/htop.png 680w,
+/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png 1000w&quot;
           sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
           type=&quot;image/png&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png&quot;
+          src=&quot;/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png&quot;
           alt=&quot;htop&quot;
           title=&quot;&quot;
-          src=&quot;/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png&quot;
+          src=&quot;/gatsby_test/static/8e0bcfed719e21f05be97bf4714c730b/42dbd/htop.png&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -371,7 +371,7 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/884f6df1d4355474903923a1c526de6d/071e2/IMG_20200518_112120.jpg&quot;
+    href=&quot;/gatsby_test/static/884f6df1d4355474903923a1c526de6d/071e2/IMG_20200518_112120.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -387,28 +387,28 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/884f6df1d4355474903923a1c526de6d/53e9f/IMG_20200518_112120.webp 340w,
-/static/884f6df1d4355474903923a1c526de6d/0991f/IMG_20200518_112120.webp 680w,
-/static/884f6df1d4355474903923a1c526de6d/9d77c/IMG_20200518_112120.webp 1360w,
-/static/884f6df1d4355474903923a1c526de6d/24475/IMG_20200518_112120.webp 2000w&quot;
+          srcset=&quot;/gatsby_test/static/884f6df1d4355474903923a1c526de6d/53e9f/IMG_20200518_112120.webp 340w,
+/gatsby_test/static/884f6df1d4355474903923a1c526de6d/0991f/IMG_20200518_112120.webp 680w,
+/gatsby_test/static/884f6df1d4355474903923a1c526de6d/9d77c/IMG_20200518_112120.webp 1360w,
+/gatsby_test/static/884f6df1d4355474903923a1c526de6d/24475/IMG_20200518_112120.webp 2000w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/884f6df1d4355474903923a1c526de6d/a0703/IMG_20200518_112120.jpg 340w,
-/static/884f6df1d4355474903923a1c526de6d/5041d/IMG_20200518_112120.jpg 680w,
-/static/884f6df1d4355474903923a1c526de6d/fe1b8/IMG_20200518_112120.jpg 1360w,
-/static/884f6df1d4355474903923a1c526de6d/071e2/IMG_20200518_112120.jpg 2000w&quot;
+          srcset=&quot;/gatsby_test/static/884f6df1d4355474903923a1c526de6d/a0703/IMG_20200518_112120.jpg 340w,
+/gatsby_test/static/884f6df1d4355474903923a1c526de6d/5041d/IMG_20200518_112120.jpg 680w,
+/gatsby_test/static/884f6df1d4355474903923a1c526de6d/fe1b8/IMG_20200518_112120.jpg 1360w,
+/gatsby_test/static/884f6df1d4355474903923a1c526de6d/071e2/IMG_20200518_112120.jpg 2000w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/884f6df1d4355474903923a1c526de6d/fe1b8/IMG_20200518_112120.jpg&quot;
+          src=&quot;/gatsby_test/static/884f6df1d4355474903923a1c526de6d/fe1b8/IMG_20200518_112120.jpg&quot;
           alt=&quot;exterior&quot;
           title=&quot;&quot;
-          src=&quot;/static/884f6df1d4355474903923a1c526de6d/fe1b8/IMG_20200518_112120.jpg&quot;
+          src=&quot;/gatsby_test/static/884f6df1d4355474903923a1c526de6d/fe1b8/IMG_20200518_112120.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
@@ -419,7 +419,7 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c7be2c80f5473a3dd68dafc91300e40d/20284/IMG_20200518_112111.jpg&quot;
+    href=&quot;/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/20284/IMG_20200518_112111.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -435,32 +435,32 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
     &gt;
       &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/c7be2c80f5473a3dd68dafc91300e40d/53e9f/IMG_20200518_112111.webp 340w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/0991f/IMG_20200518_112111.webp 680w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/9d77c/IMG_20200518_112111.webp 1360w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/27063/IMG_20200518_112111.webp 2040w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/82c87/IMG_20200518_112111.webp 2720w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/caad8/IMG_20200518_112111.webp 2736w&quot;
+          srcset=&quot;/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/53e9f/IMG_20200518_112111.webp 340w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/0991f/IMG_20200518_112111.webp 680w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/9d77c/IMG_20200518_112111.webp 1360w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/27063/IMG_20200518_112111.webp 2040w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/82c87/IMG_20200518_112111.webp 2720w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/caad8/IMG_20200518_112111.webp 2736w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/c7be2c80f5473a3dd68dafc91300e40d/a0703/IMG_20200518_112111.jpg 340w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/5041d/IMG_20200518_112111.jpg 680w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/fe1b8/IMG_20200518_112111.jpg 1360w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/25fce/IMG_20200518_112111.jpg 2040w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/9bc5d/IMG_20200518_112111.jpg 2720w,
-/static/c7be2c80f5473a3dd68dafc91300e40d/20284/IMG_20200518_112111.jpg 2736w&quot;
+          srcset=&quot;/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/a0703/IMG_20200518_112111.jpg 340w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/5041d/IMG_20200518_112111.jpg 680w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/fe1b8/IMG_20200518_112111.jpg 1360w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/25fce/IMG_20200518_112111.jpg 2040w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/9bc5d/IMG_20200518_112111.jpg 2720w,
+/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/20284/IMG_20200518_112111.jpg 2736w&quot;
           sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
           type=&quot;image/jpeg&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
           style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-          src=&quot;/static/c7be2c80f5473a3dd68dafc91300e40d/fe1b8/IMG_20200518_112111.jpg&quot;
+          src=&quot;/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/fe1b8/IMG_20200518_112111.jpg&quot;
           alt=&quot;inside&quot;
           title=&quot;&quot;
-          src=&quot;/static/c7be2c80f5473a3dd68dafc91300e40d/fe1b8/IMG_20200518_112111.jpg&quot;
+          src=&quot;/gatsby_test/static/c7be2c80f5473a3dd68dafc91300e40d/fe1b8/IMG_20200518_112111.jpg&quot;
         /&gt;
       &lt;/picture&gt;
       &lt;/span&gt;
