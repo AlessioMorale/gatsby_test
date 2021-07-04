@@ -2,7 +2,6 @@ const urljoin = require("url-join")
 const siteConfig = require("./siteConfig")
 
 module.exports = {
-  pathPrefix: "/gatsby_test",
   siteMetadata: {
     title: siteConfig.name,
     author: siteConfig.author,
