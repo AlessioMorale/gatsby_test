@@ -13,10 +13,6 @@ module.exports = {
     },
   },
   plugins: [
-    "gatsby-remark-embed-video",
-    "gatsby-remark-responsive-iframe",
-    "gatsby-remark-prismjs",
-    "gatsby-remark-images",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -46,26 +42,6 @@ module.exports = {
             },
           },
           {
-            resolve: "gatsby-remark-embed-video",
-            options: {
-              width: 800,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
-              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-              loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
-              urlOverrides: [
-                {
-                  id: "youtube",
-                  embedURL: videoId =>
-                    `https://www.youtube-nocookie.com/embed/${videoId}`,
-                },
-              ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-              containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
-              iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
-            },
-          },  
-          {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
@@ -74,7 +50,6 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          
         ],
       },
     },
@@ -98,8 +73,8 @@ module.exports = {
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector
-        ignore: ['/ignored.css', 'prismjs/', '/prism.css', 'docsearch.js/'], // Ignore files/folders
-        purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+        ignore: ["/ignored.css", "prismjs/", "/prism.css", "docsearch.js/"], // Ignore files/folders
+        purgeOnly: ["components/", "/main.css", "bootstrap/"], // Purge only these files/folders
       },
     },
     {
