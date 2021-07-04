@@ -57,7 +57,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                LinkedIn
               </a>
               <a
                 href="https://twitter.com/alessiomorale"

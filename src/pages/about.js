@@ -63,7 +63,7 @@ const indexQuery = graphql`
       }
     }
     benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
+      relativePath: { eq: "profile-pic.png" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
