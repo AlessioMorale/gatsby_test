@@ -431,7 +431,7 @@ body {
   bottom: 0;
   left: 0;
   color: var(--color-base);
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(32, 32, 32, 0.6);
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1);
 }
@@ -458,7 +458,7 @@ body {
 }
 
 .post-card.with-image .post-card-content {
-  opacity: 0;
+  opacity: 0.7;
 }
 @media (max-width: 700px) {
   .post-card.with-image .post-card-content {
