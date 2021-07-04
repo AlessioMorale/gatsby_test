@@ -26,15 +26,19 @@ const Layout = props => {
           </a>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              {/* <li className="nav-home nav-current" role="menuitem">
+              {
+              <li className="nav-home" role="menuitem">
                 <Link to={`/`}>Home</Link>
-              </li> */}
+              </li> }
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li>
+                <li className="nav-slammer" role="menuitem">
+                  <Link to={`/slammer/`}>Projects/Slammer</Link>
+                </li>
+                <li className="nav-slammer" role="menuitem">
+                  <Link to={`/unav2/unav2`}>Projects/Unav2</Link>
+                </li>
               <li className="nav-tags" role="menuitem">
                 <Link to={`/tags`}>Tags</Link>
               </li>
@@ -48,20 +52,28 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://www.linkedin.com/in/alessiomorale/"
+                title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Facebook
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/alessiomorale"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Twitter
+              </a>
+              <a
+                href="https://github.com/AlessioMorale"
+                title="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
               </a>
               <Link
                 to={`/rss.xml`}
@@ -71,14 +83,7 @@ const Layout = props => {
               >
                 RSS
               </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
+
             </div>
           </div>
         </div>
