@@ -17,6 +17,7 @@ tags:
   - uNav
   - uNav2
 thumbnail: DSC8028.jpg
+important: true
 ---
 
 During the last few weeks I wanted to take a break from coding and I moved to the "drawing board" (KiCad 🙂 ) to design a prototype board for the STM32 based uNav board. [uNav](https://github.com/officinerobotiche/unavPCB) is a motor controller board that integrates with ROS and was was initially based on PIC32. Some time ago I started to rewrite an STM32 version of it, using some generic dev board and it is currently "moving" my rover [Slammer](https://alessiomorale.com/wordpress/tag/slammer/).

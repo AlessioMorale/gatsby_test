@@ -7,16 +7,13 @@ draft: false
 layout: post
 guid: https://alessiomorale.com/wordpress/?p=820
 permalink: /2021/03/22/creating-docker-images-for-jetson-nano-on-your-desktop/
-ub_ctt_via:
-  + ""
-spay_email:
-  + ""
 thumbnail: IMG_20210321_235444.jpg
 image: IMG_20210321_235444.jpg
-categories:
-  + Uncategorized
+categories: + Uncategorized
 tags: ["arm", "docker", "Jetson nano", "qemu"]
+important: false
 ---
+
 In this article I will show the workflow I'm using to be able to build Docker containers to be deployed on a Jetson Nano using my desktop machine.
 
 - [Rationale](#rationale)

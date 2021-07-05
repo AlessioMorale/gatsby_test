@@ -16,6 +16,7 @@ categories:
 tags:
   - mfr16
   - mfr17
+important: false
 ---
 
 Spending time with the guys at [Officine Robotiche](http://www.officinerobotiche.it/) (a huge thank to Stefano [Artigianato Robotico](https://www.facebook.com/ArtigianatoRobotico)), I've discovered the world of line followers. Apparently simple robots whose ultimate goal is to, guess what, follow a line 🙂

@@ -4,9 +4,9 @@ import Tags from "./tag"
 
 export default props => (
   <article
-    className={`post-card ${props.count % 3 === 0 && `post-card-large`} ${
-      props.postClass
-    } no-image`}
+    className={`post-card ${props.node.frontmatter.important &&
+      props.node.frontmatter.important === true &&
+      `post-card-large`} ${props.postClass} no-image`}
     style={
       props.node.frontmatter.thumbnail && {
         backgroundImage: `url(${props.node.frontmatter.thumbnail.childImageSharp.fluid.src})`,

@@ -18,6 +18,7 @@ tags:
   - Nvidia
   - ROS
 thumbnail: cropped-img_20190916_2135374343768061538133897.jpg
+important: true
 ---
 
 - [Introduction](#introduction)

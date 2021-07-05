@@ -8,16 +8,15 @@ layout: post
 guid: https://alessiomorale.com/wordpress/?page_id=905
 thumbnail: IMG_20210114_224713-1.jpg
 image: IMG_20210114_224713.jpg
-
+important: true
 tags:
-  - officinerobotiche
   - ROBOT
   - ROS
   - slammer
   - uNav
   - uNav2
+  - RTabMap
 ---
-
 
 This project started a few years ago as my learning platform for robotic in general and ROS.
 

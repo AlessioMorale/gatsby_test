@@ -16,6 +16,7 @@ tags:
   - firepick
   - pickandplace
 thumbnail: DSC_0642.jpg
+important: false
 ---
 
 It is now since several weeks that my Firepick has already started working as a 3D printer.

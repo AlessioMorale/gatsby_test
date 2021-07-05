@@ -14,6 +14,7 @@ tags:
   - mfr17
 title: Projects for Maker Faire 2017
 thumbnail: DSC_0179.jpg
+important: false
 ---
 
 ![Padre balistico](DSC_0183.jpg)

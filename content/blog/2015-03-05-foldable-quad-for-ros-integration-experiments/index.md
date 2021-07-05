@@ -18,6 +18,7 @@ tags:
   - ROS
   - ROSINTEGRATIONPROJECT
   - Wanderer
+important: false
 ---
 
 I'm shortly going to work integrating the OpenPilot telemetry with ROS.

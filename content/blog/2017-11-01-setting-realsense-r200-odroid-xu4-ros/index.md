@@ -7,7 +7,7 @@ draft: false
 layout: post
 guid: https://alessiomorale.com/wordpress/?p=549
 permalink: /2017/11/01/setting-realsense-r200-odroid-xu4-ros/
-image: /wp-content/uploads/2017/11/DSC_0321.jpg
+thumbnail: DSC_0321.jpg
 categories:
   - Robot
   - ROS
@@ -19,7 +19,7 @@ tags:
   - ROBOT
   - ROS
   - SLAM
-thumbnail:
+important: false
 ---
 
 _Update 1st may 2018: added a note to use realsense nodelet tag 1.8.1 and some patches to use ROS built from sources or GCC7._

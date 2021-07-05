@@ -13,6 +13,7 @@ categories:
   - OpenPilot
   - RC
   - Uncategorized
+important: false
 ---
 
 If you know a little bit of OpenPilot history you understand it was more about when, not "if ". After a little less than 4 years of contributions to the OpenPilot project it was time to part.

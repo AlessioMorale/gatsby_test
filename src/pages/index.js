@@ -66,6 +66,7 @@ const indexQuery = graphql`
             title
             description
             tags
+            important
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 1360) {
