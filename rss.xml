@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A*Morale]]></title><description><![CDATA[a*m thoughts trash can]]></description><link>https://alessiomorale.github.io/gatsby_test</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Jul 2021 20:19:00 GMT</lastBuildDate><item><title><![CDATA[Slammer]]></title><description><![CDATA[This project started a few years ago as my learning platform for robotic in general and ROS. At that time i was working mostly with drones…]]></description><link>https://alessiomorale.github.io/gatsby_test/slammer/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/slammer/</guid><pubDate>Wed, 16 Jun 2021 23:02:29 GMT</pubDate><content:encoded>&lt;p&gt;This project started a few years ago as my learning platform for robotic in general and ROS.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A*Morale]]></title><description><![CDATA[a*m thoughts trash can]]></description><link>https://alessiomorale.github.io/gatsby_test</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Jul 2021 19:15:43 GMT</lastBuildDate><item><title><![CDATA[Slammer]]></title><description><![CDATA[This project started a few years ago as my learning platform for robotic in general and ROS. At that time i was working mostly with drones…]]></description><link>https://alessiomorale.github.io/gatsby_test/slammer/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/slammer/</guid><pubDate>Wed, 16 Jun 2021 23:02:29 GMT</pubDate><content:encoded>&lt;p&gt;This project started a few years ago as my learning platform for robotic in general and ROS.&lt;/p&gt;
 &lt;p&gt;At that time i was working mostly with drones, but I realised that testing things like mapping and navigation would have been much more harder and almost impossible indoor. For this reason, I started learning the basics of rovers and mobile robotics. Thus Slammer was born.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#slammer&quot;&gt;Slammer&lt;/a&gt;&lt;/li&gt;
@@ -467,4 +467,1710 @@ docker run --rm --privileged multiarch/qemu-user-static --reset -p &lt;span clas
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[uNav2 Integrated Board prototype]]></title><description><![CDATA[During the last few weeks I wanted to take a break from coding and I moved to the “drawing board” (KiCad 🙂 ) to design a prototype board…]]></description><link>https://alessiomorale.github.io/gatsby_test/2020-02-03-unav2-integrated-board-prototype/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2020-02-03-unav2-integrated-board-prototype/</guid><pubDate>Mon, 03 Feb 2020 00:15:54 GMT</pubDate><content:encoded>&lt;p&gt;During the last few weeks I wanted to take a break from coding and I moved to the “drawing board” (KiCad 🙂 ) to design a prototype board for the STM32 based uNav board. &lt;a href=&quot;https://github.com/officinerobotiche/unavPCB&quot;&gt;uNav&lt;/a&gt; is a motor controller board that integrates with ROS and was was initially based on PIC32. Some time ago I started to rewrite an STM32 version of it, using some generic dev board and it is currently “moving” my rover &lt;a href=&quot;https://alessiomorale.com/wordpress/tag/slammer/&quot;&gt;Slammer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is the first iteration of test hardware for uNav2.&lt;br&gt;
+The board includes a STM32F405 and two DRV8871 drivers. It supports motor current feedback using two INA186 and global battery current/voltage monitor using an INA219. Additionally there is an LM75 temperature monitor ic, a fan output and switching supply for 5V to power the board and the motor encoders.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/071e2/DSC8028.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAIBAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAHyN1MvKskZJgR//8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAAgMQISL/2gAIAQEAAQUCqHDjWq+8a5ZMEiPX/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQIUER/9oACAEBAAY/AjIS1MviKKn/xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUEQcfH/2gAIAQEAAT8htSttenUSmL46mbF0zFbxyO5JFeP/2gAMAwEAAgADAAAAEPw3v//EABURAQEAAAAAAAAAAAAAAAAAAAEg/9oACAEDAQE/ECP/xAAWEQADAAAAAAAAAAAAAAAAAAABESD/2gAIAQIBAT8QLj//xAAdEAEBAAEFAQEAAAAAAAAAAAABEQAhMUFRYZGx/9oACAEBAAE/EEIirsd4xuoBeR0+40LkldgAbrX9v3EgFaXHyZJV7NZlAo6MZk157y1rn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/53e9f/DSC8028.webp 340w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/0991f/DSC8028.webp 680w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/9d77c/DSC8028.webp 1360w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/24475/DSC8028.webp 2000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/a0703/DSC8028.jpg 340w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/5041d/DSC8028.jpg 680w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg 1360w,
+/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/071e2/DSC8028.jpg 2000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg&quot;
+          alt=&quot;DSC8028&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/4ded19c71f4de9b568de658c580a9a70/fe1b8/DSC8028.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;This is the link to the &lt;a href=&quot;https://github.com/AlessioMorale/unav2_hardware/tree/master/integrated_board&quot;&gt;repository&lt;/a&gt;, there are a few issues (i’m adding them to the GitHub project to keep track of all changes needed)&lt;/p&gt;
+&lt;p&gt;And here is the link to &lt;a href=&quot;https://htmlpreview.github.io/?https://raw.githubusercontent.com/AlessioMorale/unav2_hardware/master/integrated_board/bom/ibom.html&quot;&gt;Interactive BOM&lt;/a&gt; (built with the awesome &lt;a href=&quot;https://github.com/openscopeproject/InteractiveHtmlBom&quot;&gt;InteractiveHtmlBom plugin&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The initial tests are ok so far. Hopefully i can post some further update very soon.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[NVidia JetRacer]]></title><description><![CDATA[Introduction Power supply/monitor Remote control Conclusions Introduction  Some days ago I started this adventure with JetRacer.There were a…]]></description><link>https://alessiomorale.github.io/gatsby_test/2019-09-24-nvidia-jetracer/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2019-09-24-nvidia-jetracer/</guid><pubDate>Tue, 24 Sep 2019 15:12:10 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#power-supplymonitor&quot;&gt;Power supply/monitor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#remote-control&quot;&gt;Remote control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#conclusions&quot;&gt;Conclusions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/8ca8e/img_20190916_2135374343768061538133897.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAHOZC6LSKwr/8QAGRABAQEAAwAAAAAAAAAAAAAAAQIDAAQR/9oACAEBAAEFAqfEoZxwKk4TKz14g//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAEDAQE/AUP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFX/8QAHRAAAQIHAAAAAAAAAAAAAAAAAQARAhATITEzkf/aAAgBAQAGPwIOhr4ic3m1SJf/xAAcEAACAgIDAAAAAAAAAAAAAAAAAREhQWFRcZH/2gAIAQEAAT8h6A9E5CagJQloZamxGxPAq7FI/9oADAMBAAIAAwAAABCYD//EABgRAQADAQAAAAAAAAAAAAAAAAEAESHw/9oACAEDAQE/EC1MnMZ//8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAECAQE/EIh//8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBcVFhof/aAAgBAQABPxB87gKaq8dS9BB1G72+eoTeUNADRgjpYc6OID0rheju7+RqFYaBkPU//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/53e9f/img_20190916_2135374343768061538133897.webp 340w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/0991f/img_20190916_2135374343768061538133897.webp 680w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/9d77c/img_20190916_2135374343768061538133897.webp 1360w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/27063/img_20190916_2135374343768061538133897.webp 2040w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/82c87/img_20190916_2135374343768061538133897.webp 2720w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/476fa/img_20190916_2135374343768061538133897.webp 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/a0703/img_20190916_2135374343768061538133897.jpg 340w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/5041d/img_20190916_2135374343768061538133897.jpg 680w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/fe1b8/img_20190916_2135374343768061538133897.jpg 1360w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/25fce/img_20190916_2135374343768061538133897.jpg 2040w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/9bc5d/img_20190916_2135374343768061538133897.jpg 2720w,
+/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/8ca8e/img_20190916_2135374343768061538133897.jpg 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/fe1b8/img_20190916_2135374343768061538133897.jpg&quot;
+          alt=&quot;img 20190916 2135374343768061538133897&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/90fb6c389551dd98bc8f5c28aaa57e17/fe1b8/img_20190916_2135374343768061538133897.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Some days ago I started this adventure with &lt;a href=&quot;https://github.com/NVIDIA-AI-IOT/jetracer&quot;&gt;JetRacer&lt;/a&gt;.There were a few things that I didn’t particularly like from the original design, mainly the fact that Jetson is powered from a USB powerbank (with the additional disadvantages of carrying a lot more weight, having to think about an additional battery and limiting the Jetson power profile to 5W) and the limited remote control possibilities.Beside that I wanted to base the whole system on ROS, so I had to port a few hardware relate nodes to the Nano.&lt;/p&gt;
+&lt;p&gt;To address such issues I have done some modifications to the original design.&lt;/p&gt;
+&lt;h2&gt;Power supply/monitor&lt;/h2&gt;
+&lt;p&gt;Power supply/monitorI like the idea to power the whole system from a single source. For this purpose I chose a 2S 2200 mAh LiPo battery that fits nicely with no major modifications in the existing bay.
+Battery is connected to a small custom splitting board that allows to connect more devices in parallel to a single source.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/8ca8e/img_20190916_20094134962048368907300.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAGY9P0LIuF//8QAGBABAQEBAQAAAAAAAAAAAAAAAQIDEgD/2gAIAQEAAQUCbUy6C7ejFYrTafcmvv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAwEBPwG6r//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGIiP/EABsQAAICAwEAAAAAAAAAAAAAAAABAhESITGB/9oACAEBAAY/AqZxem5RMk0U2ZcP/8QAGxABAAICAwAAAAAAAAAAAAAAAQARITFBUWH/2gAIAQEAAT8hxAq+KjtJ9Il4GSaJRaTxXrEBCtaan//aAAwDAQACAAMAAAAQyC//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QkGn/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFh/9oACAECAQE/EGxSGR//xAAdEAEAAgICAwAAAAAAAAAAAAABESEAMUHRUWGh/9oACAEBAAE/EH5rTYA+9zmjLsNRVzXGHmBFLDbZRk8aRAkd4rEiGiIjrDZGQaL5+5//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/53e9f/img_20190916_20094134962048368907300.webp 340w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/0991f/img_20190916_20094134962048368907300.webp 680w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/9d77c/img_20190916_20094134962048368907300.webp 1360w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/27063/img_20190916_20094134962048368907300.webp 2040w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/82c87/img_20190916_20094134962048368907300.webp 2720w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/476fa/img_20190916_20094134962048368907300.webp 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/a0703/img_20190916_20094134962048368907300.jpg 340w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/5041d/img_20190916_20094134962048368907300.jpg 680w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/fe1b8/img_20190916_20094134962048368907300.jpg 1360w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/25fce/img_20190916_20094134962048368907300.jpg 2040w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/9bc5d/img_20190916_20094134962048368907300.jpg 2720w,
+/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/8ca8e/img_20190916_20094134962048368907300.jpg 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/fe1b8/img_20190916_20094134962048368907300.jpg&quot;
+          alt=&quot;img 20190916 20094134962048368907300&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/c1d8e32194d8d477258ad03d1090dcec/fe1b8/img_20190916_20094134962048368907300.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;A connector is used to connect the Jetson Nano (powered with a small DC/DC). This easily allows to use a power supply during the development and disconnected from the rest of the car.
+To suit the power requirements for nano (5V and at least 3A) I opted for a Pololu 2851-FBA, capable of operating from 6V and sourcing up to 5A.Previously I tried another chinese manufactured device just to discover that it needed more than 8.5V to operate, making it worthless with a 2 cells battery.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/8ca8e/img_20190916_2008272557472320786764662.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEAf/EABcBAAMBAAAAAAAAAAAAAAAAAAACAwT/2gAMAwEAAhADEAAAAcaF5apikE//xAAaEAEBAAIDAAAAAAAAAAAAAAACAQARAxIj/9oACAEBAAEFAi4D5MoatPXjMky3d//EABoRAAICAwAAAAAAAAAAAAAAAAABAgMSITH/2gAIAQMBAT8BVeXBw2f/xAAWEQEBAQAAAAAAAAAAAAAAAAAAETH/2gAIAQIBAT8BxX//xAAbEAABBAMAAAAAAAAAAAAAAAABABARIQIDIv/aAAgBAQAGPwKDrFKw2Bk9v//EABsQAQEBAQEAAwAAAAAAAAAAAAERACExQVGR/9oACAEBAAE/IZkXlvjiYjz2Ypw/NQ2Q0+sWcqfOLob/2gAMAwEAAgADAAAAEPPP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAh/9oACAEDAQE/EDAvJxBf/8QAFhEBAQEAAAAAAAAAAAAAAAAAIQEQ/9oACAECAQE/EKnP/8QAHBABAAIDAAMAAAAAAAAAAAAAAQARITFRQWFx/9oACAEBAAE/EEt/bAp0+xW1GkCrm65v3FicqxNiCzMJoXWIhpFh5ZdAWvJP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/53e9f/img_20190916_2008272557472320786764662.webp 340w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/0991f/img_20190916_2008272557472320786764662.webp 680w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/9d77c/img_20190916_2008272557472320786764662.webp 1360w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/27063/img_20190916_2008272557472320786764662.webp 2040w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/82c87/img_20190916_2008272557472320786764662.webp 2720w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/476fa/img_20190916_2008272557472320786764662.webp 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/a0703/img_20190916_2008272557472320786764662.jpg 340w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/5041d/img_20190916_2008272557472320786764662.jpg 680w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/fe1b8/img_20190916_2008272557472320786764662.jpg 1360w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/25fce/img_20190916_2008272557472320786764662.jpg 2040w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/9bc5d/img_20190916_2008272557472320786764662.jpg 2720w,
+/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/8ca8e/img_20190916_2008272557472320786764662.jpg 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/fe1b8/img_20190916_2008272557472320786764662.jpg&quot;
+          alt=&quot;img 20190916 2008272557472320786764662&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/ced54b36eb92fcdafc7073d3b554582f/fe1b8/img_20190916_2008272557472320786764662.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;In addition I have included an I2C current and bus voltage monitor, INA219.Right now it is limited to monitor the Nano current consumption until I change the shunt resistance to a lower value.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Very important note about INA219 and Jetson nano:&lt;/strong&gt; there is another I2C device with address 0x40 (it is something of the same INA family used to monitor board voltage/consumption) connected internally to the same I2C-1 bus, so it is mandatory to select a different address for it. I have used 0x43.&lt;/p&gt;
+&lt;p&gt;Funny thing is that you can’t notice the issue but you will consistently have weird values, until remove the device and realize some thing is still answering your software. To handle this ic I made a few change to an existing node, to use the standard libi2c libraries so it works seamlessly on Nano &lt;a href=&quot;https://github.com/AlessioMorale/ros-power-ina219&quot;&gt;https://github.com/AlessioMorale/ros-power-ina219&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next step will be to calculate the integration of current consumption to estimate battery life remaining and moving to standard sensor messages&lt;/p&gt;
+&lt;h2&gt;Remote control&lt;/h2&gt;
+&lt;p&gt;Considering its functionalities, ease of use and the fact that’s widely supported, o opted for a DS4 compatible controller. As a bonus point it has audio output capabilities, that later I want to exploit to communicate the Jetracer status.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/8ca8e/img_20190916_2207583040884031757302502.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAcAqypLD/8QAGhAAAwADAQAAAAAAAAAAAAAAAQIDAAQSE//aAAgBAQABBQKlHNXpUZFu58I7nXU5JfNP/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8Bp//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPwHIj//EABwQAAICAgMAAAAAAAAAAAAAAAABAxECEBIhQf/aAAgBAQAGPwLjH5qxtSUmdZtlH//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQWFx/9oACAEBAAE/IfjI+zauYoPfYqgi2huVbQcew80c2z//2gAMAwEAAgADAAAAEFj/AP/EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAEDAQE/EFg3/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREA/9oACAECAQE/EBMci7//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMZFx/9oACAEBAAE/EFpUPZ6q3yZ4+Jv5ZPomXd1g+ciapbBCN/Kmp6z/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/53e9f/img_20190916_2207583040884031757302502.webp 340w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/0991f/img_20190916_2207583040884031757302502.webp 680w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/9d77c/img_20190916_2207583040884031757302502.webp 1360w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/27063/img_20190916_2207583040884031757302502.webp 2040w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/82c87/img_20190916_2207583040884031757302502.webp 2720w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/476fa/img_20190916_2207583040884031757302502.webp 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/a0703/img_20190916_2207583040884031757302502.jpg 340w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/5041d/img_20190916_2207583040884031757302502.jpg 680w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg 1360w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/25fce/img_20190916_2207583040884031757302502.jpg 2040w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/9bc5d/img_20190916_2207583040884031757302502.jpg 2720w,
+/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/8ca8e/img_20190916_2207583040884031757302502.jpg 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg&quot;
+          alt=&quot;img 20190916 2207583040884031757302502&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/4ed649a7a6689241c657b1d83511852e/fe1b8/img_20190916_2207583040884031757302502.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;There are a few additional steps that I did, including adding an USB SSD and a few other things that I will address, together with all ROS related setup in a few following posts.I want to close this post with a few additional pictures and a short video of ROS teleop stack working.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/8ca8e/img_20190915_1133087453250750003722849.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAE6cAi6caK//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECAxH/2gAIAQEAAQUCTpC2Klt0qZ2+zof/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BbX//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAGhAAAgIDAAAAAAAAAAAAAAAAADEBEBEhQf/aAAgBAQAGPwLMMRwgeq//xAAbEAADAQEAAwAAAAAAAAAAAAABESEAQXGRof/aAAgBAQABPyH4K4c4+LNzm/bCFF6zMRGGLUPQIqc3/9oADAMBAAIAAwAAABDQ7//EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQMBAT8Qgsof/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EIy//8QAHRABAAMAAgMBAAAAAAAAAAAAAQARIUFRYXGBkf/aAAgBAQABPxAtSgW1x9d+PyZzQLBetDc7Y5gP2VsbuOJc0c3C4wSgQDM+T//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/53e9f/img_20190915_1133087453250750003722849.webp 340w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/0991f/img_20190915_1133087453250750003722849.webp 680w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/9d77c/img_20190915_1133087453250750003722849.webp 1360w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/27063/img_20190915_1133087453250750003722849.webp 2040w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/82c87/img_20190915_1133087453250750003722849.webp 2720w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/476fa/img_20190915_1133087453250750003722849.webp 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/a0703/img_20190915_1133087453250750003722849.jpg 340w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/5041d/img_20190915_1133087453250750003722849.jpg 680w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/fe1b8/img_20190915_1133087453250750003722849.jpg 1360w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/25fce/img_20190915_1133087453250750003722849.jpg 2040w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/9bc5d/img_20190915_1133087453250750003722849.jpg 2720w,
+/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/8ca8e/img_20190915_1133087453250750003722849.jpg 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/fe1b8/img_20190915_1133087453250750003722849.jpg&quot;
+          alt=&quot;img 20190915 1133087453250750003722849&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/b490ca2538e1be9fb2b101c152772b55/fe1b8/img_20190915_1133087453250750003722849.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/8ca8e/img_20190915_113322102000925495512880.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFbUSDrk5Nf/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIREgADISL/2gAIAQEAAQUC9Lh2mKiHbl+hxH//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPwFX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAgMBAAAAAAAAAAAAAAAAACEBEYEi/9oACAEBAAY/AhacyibwSGf/xAAYEAEBAQEBAAAAAAAAAAAAAAABEQAhUf/aAAgBAQABPyGdiimSRApF5iQ4DmpE4lby03oZv//aAAwDAQACAAMAAAAQ3x//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAEDAQE/EFIcdv/EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QDJDl/8QAHRABAAICAwEBAAAAAAAAAAAAAQARITFBYXGBwf/aAAgBAQABPxAf55qnj2HEBR3eTMMZxKF39mEB30BzfdQQ9jnrPEYqQFAX9n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/53e9f/img_20190915_113322102000925495512880.webp 340w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/0991f/img_20190915_113322102000925495512880.webp 680w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/9d77c/img_20190915_113322102000925495512880.webp 1360w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/27063/img_20190915_113322102000925495512880.webp 2040w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/82c87/img_20190915_113322102000925495512880.webp 2720w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/476fa/img_20190915_113322102000925495512880.webp 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/a0703/img_20190915_113322102000925495512880.jpg 340w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/5041d/img_20190915_113322102000925495512880.jpg 680w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/fe1b8/img_20190915_113322102000925495512880.jpg 1360w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/25fce/img_20190915_113322102000925495512880.jpg 2040w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/9bc5d/img_20190915_113322102000925495512880.jpg 2720w,
+/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/8ca8e/img_20190915_113322102000925495512880.jpg 3000w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/fe1b8/img_20190915_113322102000925495512880.jpg&quot;
+          alt=&quot;img 20190915 113322102000925495512880&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/a0ee9ac0aa66d2b75975c9ece1f047ea/fe1b8/img_20190915_113322102000925495512880.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 50%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div class=&quot;embedVideo-container&quot;&gt; &lt;iframe title src=&quot;https://www.youtube-nocookie.com/embed/EyNWCuDqfIA?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; loading=&quot;lazy&quot; allowfullscreen sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Setting up Realsense R200 on Odroid XU4 with ROS]]></title><description><![CDATA[Update 1st may 2018: added a note to use realsense nodelet tag 1.8.1 and some patches to use ROS built from sources or GCC7. This post will…]]></description><link>https://alessiomorale.github.io/gatsby_test/2017-11-01-setting-realsense-r200-odroid-xu4-ros/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2017-11-01-setting-realsense-r200-odroid-xu4-ros/</guid><pubDate>Wed, 01 Nov 2017 16:54:06 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Update 1st may 2018: added a note to use realsense nodelet tag 1.8.1 and some patches to use ROS built from sources or GCC7.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This post will guide you through the configuration of a Realsense R200 on Odroid XU4. There is nothing strictly related to this platform so they should apply to any armhf/x86 Ubuntu 16.04.xx systems.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/71420/DSC_0321.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.01082719792119%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/9oADAMBAAIQAxAAAAEjc5oKaVZf/8QAGxAAAgMAAwAAAAAAAAAAAAAAAQIDERIAEyL/2gAIAQEAAQUC7CDBK5Z4cNRu/O75/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwGpZf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAERL/2gAIAQIBAT8BcLtv/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIQMSInGh/9oACAEBAAY/AuPpesdELI0ihIpSf//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFRMUFx/9oACAEBAAE/IREA1pER7bS55EAuKprmCNAnfS3P/9oADAMBAAIAAwAAABAjL//EABcRAAMBAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8Qo3cIP//EABkRAQACAwAAAAAAAAAAAAAAAAEAESFRwf/aAAgBAgEBPxBAUZm7k//EAB0QAQEAAgIDAQAAAAAAAAAAAAERACExcUFRYZH/2gAIAQEAAT8QMcRyUXrrBAAJo2+nzlTQxET9yHABtd4Kaqh91l7zgpDP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/53e9f/DSC_0321.webp 340w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/0991f/DSC_0321.webp 680w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/9d77c/DSC_0321.webp 1360w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/27063/DSC_0321.webp 2040w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/82c87/DSC_0321.webp 2720w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/483c1/DSC_0321.webp 4618w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/a0703/DSC_0321.jpg 340w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/5041d/DSC_0321.jpg 680w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/fe1b8/DSC_0321.jpg 1360w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/25fce/DSC_0321.jpg 2040w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/9bc5d/DSC_0321.jpg 2720w,
+/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/71420/DSC_0321.jpg 4618w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/fe1b8/DSC_0321.jpg&quot;
+          alt=&quot;DSC 0321&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/69c00ef17e72af93f9ec3e2edd47d444/fe1b8/DSC_0321.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Let’s start from the requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an Ubuntu 16.04.xx installation;&lt;/li&gt;
+&lt;li&gt;ROS Kinetic (&lt;a href=&quot;http://wiki.ros.org/kinetic/Installation/Ubuntu&quot;&gt;installation instructions&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;obviously a Realsense R200 🙂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Preparing the workspace&lt;/h3&gt;
+&lt;p&gt;Skip this section if you have already a workspace.&lt;/p&gt;
+&lt;p&gt;If don’t, let’s do it now (remember to ‘source /opt/ros/kinetic/setup.bash’ in case you have not added it to your .bashrc):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; -p ros_ws/src
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; ros_ws/src
+catkin_init_workspace&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;/pre&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Prerequisites&lt;/h3&gt;
+&lt;p&gt;Librealsense requires some prerequisites to be built:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; libusb-1.0-0-dev pkg-config libglfw3-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Cloning the repositories&lt;/h3&gt;
+&lt;p&gt;now it’s time to clone the &lt;a href=&quot;https://github.com/IntelRealSense/librealsense&quot;&gt;librealsense&lt;/a&gt; and the &lt;a href=&quot;https://github.com/intel-ros/realsense&quot;&gt;Realsense nodelet&lt;/a&gt; repo:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#librealsense&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/IntelRealSense/librealsense.git
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; librealsense
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout v1.12.1
+&lt;span class=&quot;token comment&quot;&gt;#setup udev rules. Connect or reconnect the camera the camera after the following two lines are executed&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;cp&lt;/span&gt; config/99-realsense-libusb.rules /etc/udev/rules.d/
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; udevadm control --reload-rules &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; udevadm trigger&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;NOTE: if using ros built from source (and not installed under /opt/ros/* apply the following patch to librealsense:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff&quot;&gt;&lt;code class=&quot;language-diff&quot;&gt;diff --git a/CMakeLists.txt b/CMakeLists.txt
+index d6ed86e1..784da760 100644
+&lt;span class=&quot;token coord&quot;&gt;--- a/CMakeLists.txt&lt;/span&gt;
+&lt;span class=&quot;token coord&quot;&gt;+++ b/CMakeLists.txt&lt;/span&gt;
+@@ -37,10 +37,8 @@ assign_version_property(PATCH)
+&lt;span class=&quot;token unchanged&quot;&gt; set(REALSENSE_VERSION_STRING ${REALSENSE_VERSION_MAJOR}.${REALSENSE_VERSION_MINOR}.${REALSENSE_VERSION_PATCH})
+ infoValue(REALSENSE_VERSION_STRING)
+&lt;/span&gt;
+&lt;span class=&quot;token deleted-sign deleted&quot;&gt;-IF(DEFINED CMAKE_PREFIX_PATH)
+-  IF(&quot;${CMAKE_PREFIX_PATH}&quot; MATCHES &quot;/opt/ros&quot;)
+-    set(ROS_BUILD_TYPE TRUE)
+-  ENDIF()
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted&quot;&gt;+IF(DEFINED CATKIN_DEVEL_PREFIX)
++  set(ROS_BUILD_TYPE TRUE)
+&lt;/span&gt;&lt;span class=&quot;token unchanged&quot;&gt; ENDIF()
+&lt;/span&gt;
+&lt;span class=&quot;token unchanged&quot;&gt; IF (${ROS_BUILD_TYPE})&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Also if you are using gcc7 you probably need the next patch as well:&lt;/p&gt;
+&lt;p&gt;librealsense_gcc7.diff:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff&quot;&gt;&lt;code class=&quot;language-diff&quot;&gt;diff --git a/src/types.h b/src/types.h
+index 0455c836..ed3b818a 100644
+&lt;span class=&quot;token coord&quot;&gt;--- a/src/types.h&lt;/span&gt;
+&lt;span class=&quot;token coord&quot;&gt;+++ b/src/types.h&lt;/span&gt;
+&lt;span class=&quot;token coord&quot;&gt;@@ -22,6 +22,7 @@&lt;/span&gt;
+&lt;span class=&quot;token unchanged&quot;&gt; #include &amp;amp;lt;atomic&amp;amp;gt;
+ #include &amp;amp;lt;map&amp;amp;gt;
+ #include &amp;amp;lt;algorithm&amp;amp;gt;
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted&quot;&gt;+#include &amp;amp;lt;functional&amp;amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;token unchanged&quot;&gt; const uint8_t RS_STREAM_NATIVE_COUNT    = 5;
+ const int RS_USER_QUEUE_SIZE = 20;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Please note that you need to use librealsense v1.12.1 and realsense 1.8.1 with R200 as the support was dropped in later versions.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#realsense nodelet&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/intel-ros/realsense.git
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token number&quot;&gt;1.8&lt;/span&gt;.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Building and testing&lt;/h3&gt;
+&lt;p&gt;You may move to the root of your workspace (ros_ws) and build it:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;catkin_make -j4&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;(j4 is required to prevent the compilation failures due to RAM constraints)&lt;/p&gt;
+&lt;p&gt;In case of failure check whether it is asking for some dependencies (every distribution  has always a slightly different set of packages preinstalled).&lt;/p&gt;
+&lt;p&gt;Now you can test if everything is working fine.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ./devel/setup.sh
+&lt;span class=&quot;token comment&quot;&gt;#run the nodelet with default settings&lt;/span&gt;
+roslaunch realsense_camera r200_nodelet_default.launch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ensure to have ROS Kinetic installed on your pc and to configure properly the odroid XU4 netbios name inside your PC /etc/hosts file (all details for &lt;a href=&quot;http://wiki.ros.org/ROS/NetworkSetup&quot;&gt;network setup here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;then you can show the image topics from camera using:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;ROS_MASTER_URI&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;http://192.168.2.15:11311 rqt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Change 192.168.2.15 with the IP of your embedded linux box(Odroid XU4).&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/eeac6/Selection_033.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 759px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 79.0513833992095%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsSAAALEgHS3X78AAACeElEQVQoz42Ty08TURTGR6Ev2gSakJI+FqRNK5AwbjBNd5SdLYksQKPWhaEordLEGDZG91ITMWLTQl1JDJiQoAt158K/gBCNrHgVO7oo82id90z9OhU0pCR+OZl77r3nd849N3eIh3PPxienr9y6M5FMXZ5KjydTsImp9NXbd5P3Zm9m7idSmWvTM7DrR5ZIZ2CZB4+IGsPyDCvzvC6KuiRpggDTZVmRZFHRVE2XNV3RdM34Nq3KC5KiHjIs8XirlNrYnv12MLtVnvm6P7m5l9zcu7Gx++knXZeknf0Sx3KsIJaqfI2DqjwvVGu/ZEWFQ3ymKuu71Pr2wdvd8rs9am37O6ZrO+UvFYaq8WXqB81ykqoJmq6qmqJqUuNMGHVBlAis1WGKogm8SB+KNA1TGuU4imYZlqvQDApyXA0jw7K8IIIE3YBFRRUkuV6vv15Z9Xh9ob6+YOjcIHl+kCQvDA0NDw9HIpGBgYFgMBgKhfr7+5eKLxGM4g0YrYsGnM8XCII4a8hqs9rtdjgmk8nhcMDBlsViaW9vz2aftICXikVEIBoRHR0dXV1dVqvVZrO53W742Orp6XE6nU/n51vAi0vFZmXiSGcMYQW5kAVwb29vvlA4FUbZf/mmcGCXyxUOh3EFr5aXEYz7bgHjhJ2dnahjNpuPs6AXkiQTiUQgEHiRy7Xq2YC7u7t9Pp/H40F7xzASeb1ev9+PW3y+sHAqjGNbDMFpa2sDj7YxBWYylGtZuVBYPHFhJ4Rc+M5ls39hUQasYP7+w8doNDo6OhqLxQ2LXfyjWDzeWLk0NhYdGVlZfYNgIPg7COOtgsfL1ev/IYQhWFY0wL8BSYogaGjWu+AAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/53e9f/Selection_033.webp 340w,
+/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/0991f/Selection_033.webp 680w,
+/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/d0a32/Selection_033.webp 759w&quot;
+          sizes=&quot;(max-width: 759px) 100vw, 759px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/a2595/Selection_033.png 340w,
+/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/2473e/Selection_033.png 680w,
+/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/eeac6/Selection_033.png 759w&quot;
+          sizes=&quot;(max-width: 759px) 100vw, 759px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/eeac6/Selection_033.png&quot;
+          alt=&quot;Selection 033&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/d24885c06765ba8a0a9908fc0b456e0d/eeac6/Selection_033.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Projects for Maker Faire 2017]]></title><link>https://alessiomorale.github.io/gatsby_test/2017-09-19-539/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2017-09-19-539/</guid><pubDate>Tue, 19 Sep 2017 19:51:20 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/e0ec4/DSC_0183.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.02289377289377%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/9oADAMBAAIQAxAAAAGS1DJ1jNQH/8QAGhABAQACAwAAAAAAAAAAAAAAAgEAAwQRIf/aAAgBAQABBQKAvBo1qLjOrX1MfmRGz//EABcRAQADAAAAAAAAAAAAAAAAAAABAhP/2gAIAQMBAT8BmrN//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEv/aAAgBAgEBPwFUbZ//xAAcEAACAQUBAAAAAAAAAAAAAAAAASECEBESMSL/2gAIAQEABj8CW/UNUv0OckC0irPVb//EABoQAQEBAQEBAQAAAAAAAAAAAAERADFBUSH/2gAIAQEAAT8h5CeAgTFiPLbpR0lxH6+uAWFIpMaZz85v/9oADAMBAAIAAwAAABAQD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QGwcS/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERYf/aAAgBAgEBPxC2Wz//xAAdEAACAgMAAwAAAAAAAAAAAAABEQAhMVFhQXHB/9oACAEBAAE/EGj7lJ5hJaSTIb48whFAFRlFbgyjLobgU/jCJWV6gWYmdmJ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/53e9f/DSC_0183.webp 340w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/0991f/DSC_0183.webp 680w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/9d77c/DSC_0183.webp 1360w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/27063/DSC_0183.webp 2040w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/82c87/DSC_0183.webp 2720w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/f60ee/DSC_0183.webp 4368w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/a0703/DSC_0183.jpg 340w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/5041d/DSC_0183.jpg 680w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/fe1b8/DSC_0183.jpg 1360w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/25fce/DSC_0183.jpg 2040w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/9bc5d/DSC_0183.jpg 2720w,
+/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/e0ec4/DSC_0183.jpg 4368w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/fe1b8/DSC_0183.jpg&quot;
+          alt=&quot;Padre balistico&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/dbff22e1d7430062d8bf4cc1e413a335/fe1b8/DSC_0183.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/71420/DSC_0179.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.01082719792119%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAADAAH/2gAMAwEAAhADEAAAAcuiE06gjb//xAAZEAEBAAMBAAAAAAAAAAAAAAABAwACERL/2gAIAQEAAQUC6QJVb7E/AOd32qLz/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAES/9oACAEDAQE/AazH/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECEv/aAAgBAgEBPwGrUv/EAB0QAAEEAgMAAAAAAAAAAAAAAAEAAhEiEDEhI6H/2gAIAQEABj8Cq2UGlnulDTxjrEQVba//xAAcEAADAAEFAAAAAAAAAAAAAAAAAREhEDFBcYH/2gAIAQEAAT8hwr6daLpVd+AdD9lpKgx8kkIXpD//2gAMAwEAAgADAAAAEAzf/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxAt5B//xAAWEQEBAQAAAAAAAAAAAAAAAAABECH/2gAIAQIBAT8QQmw//8QAHBABAQACAgMAAAAAAAAAAAAAAREAIUFhMXGR/9oACAEBAAE/EERGIlgct+YR0HaGjb25HQVQs7b5ua5Vx+z8MKPvmbxzRr0XP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/53e9f/DSC_0179.webp 340w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/0991f/DSC_0179.webp 680w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/9d77c/DSC_0179.webp 1360w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/27063/DSC_0179.webp 2040w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/82c87/DSC_0179.webp 2720w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/483c1/DSC_0179.webp 4618w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/a0703/DSC_0179.jpg 340w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/5041d/DSC_0179.jpg 680w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/fe1b8/DSC_0179.jpg 1360w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/25fce/DSC_0179.jpg 2040w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/9bc5d/DSC_0179.jpg 2720w,
+/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/71420/DSC_0179.jpg 4618w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/fe1b8/DSC_0179.jpg&quot;
+          alt=&quot;Wanderer&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/0d2c0aa6e4718bd57a96d1b5e97a3cce/fe1b8/DSC_0179.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA["Padre Balistico" a (hopefully) fast line follower robot]]></title><description><![CDATA[Spending time with the guys at Officine Robotiche (a huge thank to Stefano Artigianato Robotico), I’ve discovered the world of line…]]></description><link>https://alessiomorale.github.io/gatsby_test/2016-09-26-starting-linefollower-robots-librepilot/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2016-09-26-starting-linefollower-robots-librepilot/</guid><pubDate>Mon, 26 Sep 2016 21:32:06 GMT</pubDate><content:encoded>&lt;p&gt;Spending time with the guys at &lt;a href=&quot;http://www.officinerobotiche.it/&quot;&gt;Officine Robotiche&lt;/a&gt; (a huge thank to Stefano &lt;a href=&quot;https://www.facebook.com/ArtigianatoRobotico&quot;&gt;Artigianato Robotico&lt;/a&gt;), I’ve discovered the world of line followers. Apparently simple robots whose ultimate goal is to, guess what, follow a line 🙂&lt;/p&gt;
+&lt;p&gt;This simple task involves several issues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;reading sensors to determine the line displacement;&lt;/li&gt;
+&lt;li&gt;employing a control algorithm to determine the movement vector;&lt;/li&gt;
+&lt;li&gt;motor control;&lt;/li&gt;
+&lt;li&gt;several other ancillary stuffs, like telemetry, etc;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Obviously mine will run LibrePilot 🙂 and that simplifies a lot of things as most of the component needed are either in place or needs minor rework.&lt;/p&gt;
+&lt;p&gt;Unfortunately I had no enough time to make a custom board so I went for some ready stuffs for sensor board and motor driver. Thanks to Stefano ‘s suggestions and after fiddling with their datasheets I ended with the following component list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pololu.com/product/2212&quot;&gt;1:30 gearmotor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pololu.com/product/2130&quot;&gt;DRV8833 dual motor driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pololu.com/product/961&quot;&gt;QTR-8RC Reflectance Sensor Array&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pololu.com/product/2682&quot;&gt;12mm hex wheel adapters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;soft foam 1:12 RC Car wheels bought at a local store (yes, the ones with real people you can talk to 🙂 )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It will be based on OpenPilot Revolution board given it has plenty of I/O and RF module onboard, useful for tuning and telemetry.&lt;/p&gt;
+&lt;p&gt;I’ve also left some mounting holes that may host a NanoPI neo. One day it will be used for optical recognition for, i.e. better line speed planning.&lt;/p&gt;
+&lt;p&gt;This is the frame I made for this robot&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/af810/IMG_20160925_195509_HDR.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAMA/9oADAMBAAIQAxAAAAHXOhGzzUf/xAAbEAEBAAIDAQAAAAAAAAAAAAABAgASAwQRIv/aAAgBAQABBQIdc46Yyu3Hr9Gikkwf/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBAjH/2gAIAQMBAT8BotkR/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aa1//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIQIQEjL/2gAIAQEABj8CSSso8p65iyMUf//EAB0QAAICAQUAAAAAAAAAAAAAAAERADEhQVFhkaH/2gAIAQEAAT8hTBt1AGQbe7lQrZ5hBdLWEwjK3AsQAez/2gAMAwEAAgADAAAAELP/AP/EABgRAAIDAAAAAAAAAAAAAAAAAAABESEx/9oACAEDAQE/EGvoOTP/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFB/9oACAECAQE/EGwlH//EABwQAQADAAMBAQAAAAAAAAAAAAEAESExQVFxsf/aAAgBAQABPxBA2Vp0fsbJrlhat7f5MFwBVR6DOJY6tZ56SASiB4ge6hFy3NXrP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/53e9f/IMG_20160925_195509_HDR.webp 340w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/0991f/IMG_20160925_195509_HDR.webp 680w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/9d77c/IMG_20160925_195509_HDR.webp 1360w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/27063/IMG_20160925_195509_HDR.webp 2040w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/82c87/IMG_20160925_195509_HDR.webp 2720w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/b4203/IMG_20160925_195509_HDR.webp 4160w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/a0703/IMG_20160925_195509_HDR.jpg 340w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/5041d/IMG_20160925_195509_HDR.jpg 680w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/fe1b8/IMG_20160925_195509_HDR.jpg 1360w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/25fce/IMG_20160925_195509_HDR.jpg 2040w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/9bc5d/IMG_20160925_195509_HDR.jpg 2720w,
+/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/af810/IMG_20160925_195509_HDR.jpg 4160w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/fe1b8/IMG_20160925_195509_HDR.jpg&quot;
+          alt=&quot;frame&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/3616060cbddf389e2c0f0bb8cb85660b/fe1b8/IMG_20160925_195509_HDR.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;It is made of two parts, the main frame structure and sensor housing. It is available for download at Thingiverse (&lt;a href=&quot;http://www.thingiverse.com/thing:1792422&quot;&gt;http://www.thingiverse.com/thing:1792422&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I used PETG for the main part and PLA (that is hard and have very low friction).&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/0e1871fff472bb63944f1c4412762767/af810/IMG_20160925_195654_HDR.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAAGfqW0msiCi/8QAGxABAAICAwAAAAAAAAAAAAAAAgADARIREyP/2gAIAQEAAQUC62FplyoGseqgCm3E/8QAFxEBAQEBAAAAAAAAAAAAAAAAAgEQEf/aAAgBAwEBPwEvhsz/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAgEBPwGn/8QAHBAAAgICAwAAAAAAAAAAAAAAABECIQESMUGx/9oACAEBAAY/An4Jo1hwdF4iUf/EABwQAQACAgMBAAAAAAAAAAAAAAEAESFhMUFRcf/aAAgBAQABPyEJGfWFFBsvEAjhECmnyFacdqXDQJ//2gAMAwEAAgADAAAAEHwf/8QAFREBAQAAAAAAAAAAAAAAAAAAEGH/2gAIAQMBAT8QrJ//xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8Q1azf/8QAHBABAQACAgMAAAAAAAAAAAAAAREAQTFRIWFx/9oACAEBAAE/EAYlA4BdOXTVJJG37MaaWvmq7X3hQC5SC9XBqK0NBkkT1Gf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/0e1871fff472bb63944f1c4412762767/53e9f/IMG_20160925_195654_HDR.webp 340w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/0991f/IMG_20160925_195654_HDR.webp 680w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/9d77c/IMG_20160925_195654_HDR.webp 1360w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/27063/IMG_20160925_195654_HDR.webp 2040w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/82c87/IMG_20160925_195654_HDR.webp 2720w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/b4203/IMG_20160925_195654_HDR.webp 4160w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/0e1871fff472bb63944f1c4412762767/a0703/IMG_20160925_195654_HDR.jpg 340w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/5041d/IMG_20160925_195654_HDR.jpg 680w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/fe1b8/IMG_20160925_195654_HDR.jpg 1360w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/25fce/IMG_20160925_195654_HDR.jpg 2040w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/9bc5d/IMG_20160925_195654_HDR.jpg 2720w,
+/gatsby_test/static/0e1871fff472bb63944f1c4412762767/af810/IMG_20160925_195654_HDR.jpg 4160w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/0e1871fff472bb63944f1c4412762767/fe1b8/IMG_20160925_195654_HDR.jpg&quot;
+          alt=&quot;IMG 20160925 195654 HDR&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/0e1871fff472bb63944f1c4412762767/fe1b8/IMG_20160925_195654_HDR.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/81c36/IMG_20160925_194736_HDR.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAUBBAIDBv/EABYBAQEBAAAAAAAAAAAAAAAAAAMCBP/aAAwDAQACEAMQAAABWbYkdd8XFBcwsMjRMdAWf//EABsQAAIDAQEBAAAAAAAAAAAAAAECAAMRMSEy/9oACAEBAAEFAl6PWrYFVXIcigkONgqsaWUsGJKovyOf/8QAGxEAAgEFAAAAAAAAAAAAAAAAAAECEhMhImH/2gAIAQMBAT8BesTJc4Vs/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQESH/2gAIAQIBAT8BWsqf/8QAHhAAAQMEAwAAAAAAAAAAAAAAAAERMgIhYYEQElH/2gAIAQEABj8CH8LmRkVck2E60bIEF0W5/8QAGxAAAwEAAwEAAAAAAAAAAAAAAAERITFRYcH/2gAIAQEAAT8h07KYlqViTWnBbXZDM4Cl9l2k8nyMNucNc2q5qNxkUHw/B2P/2gAMAwEAAgADAAAAEBvA8//EABgRAQEBAQEAAAAAAAAAAAAAAAERACFR/9oACAEDAQE/EOH1uQcmsJGXd//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8Q4LEGQF//xAAfEAEAAwACAQUAAAAAAAAAAAABABEhQWExUXGBsfD/2gAIAQEAAT8QPmxKc94quKRyiPGVp7jEUtZPj0j5BWho393GxC8YMd3aeO+zOISXGYhTTcoAABzH6epbVYCuCMWtq38RQtZ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/53e9f/IMG_20160925_194736_HDR.webp 340w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/0991f/IMG_20160925_194736_HDR.webp 680w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/9d77c/IMG_20160925_194736_HDR.webp 1360w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/27063/IMG_20160925_194736_HDR.webp 2040w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/82c87/IMG_20160925_194736_HDR.webp 2720w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/72bb6/IMG_20160925_194736_HDR.webp 3120w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/a0703/IMG_20160925_194736_HDR.jpg 340w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/5041d/IMG_20160925_194736_HDR.jpg 680w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/fe1b8/IMG_20160925_194736_HDR.jpg 1360w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/25fce/IMG_20160925_194736_HDR.jpg 2040w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/9bc5d/IMG_20160925_194736_HDR.jpg 2720w,
+/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/81c36/IMG_20160925_194736_HDR.jpg 3120w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/fe1b8/IMG_20160925_194736_HDR.jpg&quot;
+          alt=&quot;IMG 20160925 194736 HDR&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/4a55779c6aaf33c03dde2009d13dc4dc/fe1b8/IMG_20160925_194736_HDR.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;And here is a short video of the thing moving for the first time, using a standard RC transmitter (and related receiver) for control. It is already using gyro for yaw/trajectory stabilization&lt;/p&gt;
+&lt;p&gt;There is still a big to do list ahead, including (but not limited to) reversable motors handling and sensor reading.&lt;/p&gt;
+&lt;p&gt;LibrePilot had already almost everything needed. I added a specific target ( i called that roborevolution based on the revolution target, employing several changes needed to manage brushed motors and all the sensors needed). To have this first test working i only had to tweak the Servo motor drivers to handle higher frequencies and to increase the available resolution.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 50%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div class=&quot;embedVideo-container&quot;&gt; &lt;iframe title src=&quot;https://www.youtube-nocookie.com/embed/Xo0Zb39PRaw?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; loading=&quot;lazy&quot; allowfullscreen sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;edit: &lt;a href=&quot;https://github.com/AlessioMorale/LibrePilot/tree/amorale/linefollower&quot;&gt;here&lt;/a&gt; is the, still very hacky. source code i ‘m working on&lt;/p&gt;
+&lt;p&gt;edit2: and it works 🙂 until i find some time for a new update post, here are two videos of its first tests&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 50%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div class=&quot;embedVideo-container&quot;&gt; &lt;iframe title src=&quot;https://www.youtube-nocookie.com/embed/EWf0fa_k2FA?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; loading=&quot;lazy&quot; allowfullscreen sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;After a bit of tuning 🙂&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 50%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;div class=&quot;embedVideo-container&quot;&gt; &lt;iframe title src=&quot;https://www.youtube-nocookie.com/embed/JDx6UnxeB-w?rel=0&quot; class=&quot;embedVideo-iframe&quot; style=&quot;border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot; loading=&quot;lazy&quot; allowfullscreen sandbox=&quot;allow-same-origin allow-scripts allow-popups&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Introducing LibrePilot]]></title><description><![CDATA[If you know a little bit of OpenPilot history you understand it was more about when, not “if “. After a little less than 4 years of…]]></description><link>https://alessiomorale.github.io/gatsby_test/2015-07-20-introducing-librepilot/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2015-07-20-introducing-librepilot/</guid><pubDate>Mon, 20 Jul 2015 20:40:21 GMT</pubDate><content:encoded>&lt;p&gt;If you know a little bit of OpenPilot history you understand it was more about when, not “if “. After a little less than 4 years of contributions to the OpenPilot project it was time to part.&lt;/p&gt;
+&lt;p&gt;Just to give a bit of context, I started with OP at the beginning of 2012, working at the early stage of the revolution firmware and hardware development. I mostly took care of the bare metal firmware side, sensors and peripherals interfaces, porting the code to various targets (i.e. STM32 F0 for GPS V9, STM32F411 for nano Nano). I‘ve also participated in hardware development/validation and testing since the initial Revolution prototypes (not the small officially sold, but the previous bigger brother &lt;a href=&quot;http://wp.me/p1tDhc-2H&quot;&gt;Revolution Prototype&lt;/a&gt; . I worked at flight performances improvement with mini quads for CC3D/Revo (the thing that, together with the acro+ develiped by Eric/CorvusCorax, made CC3D so popular in the 250 class racers) , implemented OneShot, notification smart leds support, a new sensor framework implementation and several other things.&lt;/p&gt;
+&lt;p&gt;Later I’ll have to write some detailed chronological history of the awful situations, the falsification and everything else happened in the last 1 and 1/2 months that brought me, most of the development team and several key members to build a new project (LibrePilot) from the roots of OpenPilot.&lt;/p&gt;
+&lt;p&gt;One question that i have been asked several time is: wouldn’t be better to join to an existing project, like TauLabs?&lt;/p&gt;
+&lt;p&gt;This was actually one of the possibilities, the fact is that we are already a solid, very well proven team and this may have caused “integration ” issues.&lt;/p&gt;
+&lt;p&gt;But the intentions are to collaborate with other projects, especially TauLabs. Probably one of the best (long term) bets for both projects is to converge to a single codebase that takes the best of both worlds. Unfortunately it is a quite demanding task as in the last couple of years they have diverged a lot, but surely it will worth the effort, both in term of features/quality than in term of critical mass of users and development team.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/6827f/statement_departure.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 805px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 129.93788819875775%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAIAAAA44esqAAAACXBIWXMAAAsSAAALEgHS3X78AAADE0lEQVQ4y51UybKbSBD0/9/8A77MfMCcJsKXF+OjQ0JsYpGABrGJXSxiEauzJVvxxLMvU7Sqm1JnV1VW0Z+WuwzD0HXdOI7zO1leZZ4nqPeWT4+pruvL5YIj1oBpXMb+0vb/yFJk/bf0t3nsqfE9uCiKLMviOI6iCIsojKqqohGFZvHtr+vbly9vb/z3r92/n8tvf4+J84jkJ/h2uzVN27QtdEt1A8s0TUPf9XUx1Pnct9M0Dl3TVfnQ9y+eXcdRDwcMWZL3oqgoqnpQ9xKWoozlUZMgMlXEOrVd9wLWdW232wmCwPGcIO55jhdEAYMXhP2eHoG/RHqobNv2k5onWN9uNnDFC/xekgSBBwwiywoejuNwBI8jecE0TRTlBUyIAc+SLAPGclRYlhURArbDLU8FbhmGURRl7VlVlM1mo9BcVVlRNE1TqNaRJojAqyiIBzCiKKjFus5RGBJCsuwCkuvr9VrXzV3A+691ixmF6Lp2Hbbv+Ukcl5BHwZMkSdM8z2GAPUvjMs+yJMYvTdOuu72AsQlbCzqKoizyC6aiKsswDJKsyNslb5b0uhTtDHu/qjN6y7Ftx3FOp5NlWc5dDINYpkmIqVuuafs6saGRHRr5BQxKUCoMcA6eOY7fbpktQ4VldwyzhdoxG5ZlduwOob+APc8F4ag2PB1/yeF4dGg0DlwhhQK5VSXW67DxPfi+77oetvq+h8gRv+O6FOtiRvvarkcfULlmGw5RYSQJh7puZJcMHkA7CIviOAiCkAo03mLUb+U5NAyDunGd4BwgWpzied44Tsuf5VlnD5yBaRqqbcMTLHCOrri3DJWPl8xP8Mky0cnSXsL3dz6fn2cTg6Cr8VWg1681jXb+6Nkw9O12ixqhXkdNhwU3Ae15VUXNAEb9kjS73x/zGhyefWLo1snStCPuoucm2z4ZumZZBLlEUYAsfpNzdK2Dyy2rxjAf0nJ8nA78USNRfkvKMasGH03dT78BG0Wr+o1x7kjQHZym7qYHWCGJYlP70Wt1n/6bVsMafN/6Mj5c2sudiHn6mPP/kx+HxKiIScwNgwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/53e9f/statement_departure.webp 340w,
+/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/0991f/statement_departure.webp 680w,
+/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/32aa7/statement_departure.webp 805w&quot;
+          sizes=&quot;(max-width: 805px) 100vw, 805px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/a2595/statement_departure.png 340w,
+/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/2473e/statement_departure.png 680w,
+/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/6827f/statement_departure.png 805w&quot;
+          sizes=&quot;(max-width: 805px) 100vw, 805px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/6827f/statement_departure.png&quot;
+          alt=&quot;statement departure&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/c7b617150b8578544d1c0dd7af59ff3e/6827f/statement_departure.png&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[FirePick now 3D printing]]></title><description><![CDATA[It is now since several weeks that my Firepick has already started working as a 3D printer. There are some (expected) issues with…]]></description><link>https://alessiomorale.github.io/gatsby_test/2015-06-07-firepick-now-3d-printing/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2015-06-07-firepick-now-3d-printing/</guid><pubDate>Sun, 07 Jun 2015 10:03:52 GMT</pubDate><content:encoded>&lt;p&gt;It is now since several weeks that my Firepick has already started working as a 3D printer.&lt;/p&gt;
+&lt;p&gt;There are some (expected) issues with calibration that i had not yet time to solve, this make a bit difficult to print large objects as the head does not move on a perfect flat plane but goes down when moving away from bed center point.&lt;/p&gt;
+&lt;p&gt;Right now it is working with an Arduino mega/ramp and the &lt;a href=&quot;https://github.com/firepick-delta/Marlin&quot;&gt;modified Marlin firmware&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the process of printing the updated end effector mount for 3d printing hot end&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/a6a55/DSC_0643.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABi1aOYsc//8QAGhAAAgIDAAAAAAAAAAAAAAAAAQMCERMyM//aAAgBAQABBQKIIWq5TeDlYTSuh2//xAAWEQEBAQAAAAAAAAAAAAAAAAAAAhH/2gAIAQMBAT8Blr//xAAVEQEBAAAAAAAAAAAAAAAAAAACEP/aAAgBAgEBPwFT/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAECEXH/2gAIAQEABj8CqmYViGIfT//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExQZH/2gAIAQEAAT8htAjCLEd3icUXyGC8BBQmo/RP/9oADAMBAAIAAwAAABBg/wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QeBK2/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oACAECAQE/EJTH/8QAHBABAQADAAMBAAAAAAAAAAAAAREAITFBUcHx/9oACAEBAAE/EF9EIUlqa+4IgZRS30feI4dzo64JegEJVjgHg0YHmmJ1/TP/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/53e9f/DSC_0643.webp 340w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/0991f/DSC_0643.webp 680w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/9d77c/DSC_0643.webp 1360w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/27063/DSC_0643.webp 2040w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/82c87/DSC_0643.webp 2720w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/a99f6/DSC_0643.webp 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/a0703/DSC_0643.jpg 340w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/5041d/DSC_0643.jpg 680w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/fe1b8/DSC_0643.jpg 1360w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/25fce/DSC_0643.jpg 2040w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/9bc5d/DSC_0643.jpg 2720w,
+/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/a6a55/DSC_0643.jpg 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/fe1b8/DSC_0643.jpg&quot;
+          alt=&quot;DSC 0643&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/ee5ad7bfd2aaee3ff6723e43b914dfa3/fe1b8/DSC_0643.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/a6a55/DSC_0644.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAcqSN9plD//EABkQAQEAAwEAAAAAAAAAAAAAAAECABIxQf/aAAgBAQABBQIqx3q3WjPHhI5//8QAFhEBAQEAAAAAAAAAAAAAAAAAABET/9oACAEDAQE/Ackf/8QAFREBAQAAAAAAAAAAAAAAAAAAEBL/2gAIAQIBAT8Bo//EABsQAAICAwEAAAAAAAAAAAAAAAERAAIQISJB/9oACAEBAAY/AkA6+RCdWq87E//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFBMVFh/9oACAEBAAE/IcdLyqC5Vbh6hZH+mDDdtwOwWf/aAAwDAQACAAMAAAAQTC//xAAXEQEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEDAQE/EHljljLv/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQARIUH/2gAIAQIBAT8QOUljtT//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMUGR/9oACAEBAAE/EESqVuqhdrGOMurYkjG+KHyMZXstUQ+jIRcOrP/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/53e9f/DSC_0644.webp 340w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/0991f/DSC_0644.webp 680w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/9d77c/DSC_0644.webp 1360w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/27063/DSC_0644.webp 2040w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/82c87/DSC_0644.webp 2720w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/a99f6/DSC_0644.webp 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/a0703/DSC_0644.jpg 340w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/5041d/DSC_0644.jpg 680w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/fe1b8/DSC_0644.jpg 1360w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/25fce/DSC_0644.jpg 2040w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/9bc5d/DSC_0644.jpg 2720w,
+/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/a6a55/DSC_0644.jpg 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/fe1b8/DSC_0644.jpg&quot;
+          alt=&quot;DSC 0644&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/03c75ea2db58e8a5c30e5fbf461183f8/fe1b8/DSC_0644.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Updated end effector and 3D printing hot end mount.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/a6a55/DSC_0642.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGluIsyCf/EAB0QAAIBBAMAAAAAAAAAAAAAAAECAwAREyEiMTL/2gAIAQEAAQUCTit2ovuQnEO5vX//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwEn/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BZ//EABoQAAICAwAAAAAAAAAAAAAAAAABAnEQEYH/2gAIAQEABj8CWx3iNiOH/8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERITFBcf/aAAgBAQABPyFm0ut9ZvTqiG6qHU+TZNn4P//aAAwDAQACAAMAAAAQyN//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QIkgOX//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxBpCpt//8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFBUaH/2gAIAQEAAT8QbAsorv53sSew8fL0jnYbUIBijniFxK3dv9iFLD//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/53e9f/DSC_0642.webp 340w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/0991f/DSC_0642.webp 680w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/9d77c/DSC_0642.webp 1360w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/27063/DSC_0642.webp 2040w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/82c87/DSC_0642.webp 2720w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/a99f6/DSC_0642.webp 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/a0703/DSC_0642.jpg 340w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/5041d/DSC_0642.jpg 680w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/fe1b8/DSC_0642.jpg 1360w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/25fce/DSC_0642.jpg 2040w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/9bc5d/DSC_0642.jpg 2720w,
+/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/a6a55/DSC_0642.jpg 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/fe1b8/DSC_0642.jpg&quot;
+          alt=&quot;DSC 0642&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/329b2f595b2ba08b522c0b69c3a6215c/fe1b8/DSC_0642.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Foldable quad for ROS integration experiments]]></title><description><![CDATA[I’m shortly going to work integrating the OpenPilot telemetry with ROS. Main (long term) focus is indoor positioning and navigation. This is…]]></description><link>https://alessiomorale.github.io/gatsby_test/2015-03-05-foldable-quad-for-ros-integration-experiments/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2015-03-05-foldable-quad-for-ros-integration-experiments/</guid><pubDate>Thu, 05 Mar 2015 09:59:58 GMT</pubDate><content:encoded>&lt;p&gt;I’m shortly going to work integrating the OpenPilot telemetry with ROS.&lt;/p&gt;
+&lt;p&gt;Main (long term) focus is indoor positioning and navigation.&lt;/p&gt;
+&lt;p&gt;This is a quick mockup of the craft that will be used. Plates are going to be rebuilt to better host everything&lt;/p&gt;
+&lt;p&gt;The reference platform  is made by&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenPilot Revolution flight controller;&lt;/li&gt;
+&lt;li&gt;OpenPilot GPSV9 with integrated magnetometer;&lt;/li&gt;
+&lt;li&gt;Control link using Revolution on board OPLink;&lt;/li&gt;
+&lt;li&gt;ODroid U3 sbc hosting Ubuntu server 14.04 with ROS Indigo;&lt;/li&gt;
+&lt;li&gt;WIFI card TL-WN722N (that uses an external antenna connected with a RPSMA);&lt;/li&gt;
+&lt;li&gt;USB Web Cam, initially used for optical flow.&lt;/li&gt;
+&lt;li&gt;Telemetry link using WIFI connection;&lt;/li&gt;
+&lt;li&gt;Connection between Revolution and Odroid using USB.&lt;/li&gt;
+&lt;li&gt;Sonar sensor for precise agl measurement
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/a6a55/DSC_000001.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAEbgqjm29X/xAAZEAEBAQEBAQAAAAAAAAAAAAACAQMRABL/2gAIAQEAAQUCgHDjirtkowr93Rzy0Xf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAADAAMBAAAAAAAAAAAAAAAAAhEBITGB/9oACAEBAAY/Alq0mEmjh4Ls6f/EABwQAAIDAAMBAAAAAAAAAAAAAAABESExQVHB0f/aAAgBAQABPyHaXpMfGWlyxlzN7IhRisRvwZ+R/9oADAMBAAIAAwAAABCrz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/ECf/xAAeEAEAAwABBQEAAAAAAAAAAAABABEhMVFhgZHR8P/aAAgBAQABPxC+Wgire+QPRqVNK0esVLU4p+cSiKBj3CSwWNBxaPFv4fJ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/53e9f/DSC_000001.webp 340w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/0991f/DSC_000001.webp 680w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/9d77c/DSC_000001.webp 1360w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/27063/DSC_000001.webp 2040w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/82c87/DSC_000001.webp 2720w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/a99f6/DSC_000001.webp 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/a0703/DSC_000001.jpg 340w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/5041d/DSC_000001.jpg 680w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/fe1b8/DSC_000001.jpg 1360w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/25fce/DSC_000001.jpg 2040w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/9bc5d/DSC_000001.jpg 2720w,
+/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/a6a55/DSC_000001.jpg 3840w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/fe1b8/DSC_000001.jpg&quot;
+          alt=&quot;DSC 000001&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/d8e78ba6d30ca4c3aef72d8f2f3b7a7e/fe1b8/DSC_000001.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/4dfd5/DSC_0554.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAA//aAAwDAQACEAMQAAABgclxojRBp//EABgQAQADAQAAAAAAAAAAAAAAAAEAAgMR/9oACAEBAAEFAss20cVbV44aMSs6T//EABURAQEAAAAAAAAAAAAAAAAAAAAS/9oACAEDAQE/AUv/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAgEBPwFb/8QAHBAAAgEFAQAAAAAAAAAAAAAAABEhAQIQEkFh/9oACAEBAAY/AuKnhF2NYQ0cP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACFhMUFxgf/aAAgBAQABPyEtSPo3GirJ+XDJY4Adjn3mWA9a/kD8u//aAAwDAQACAAMAAAAQLO//xAAYEQACAwAAAAAAAAAAAAAAAAAAARExYf/aAAgBAwEBPxCXRtn/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QwkX/xAAbEAEBAQEAAwEAAAAAAAAAAAABESEAMVFhgf/aAAgBAQABPxB2KDXSdC0ABkfBD52EwbDOQNBwHX2PbgAqWb76QliJ4v17/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/53e9f/DSC_0554.webp 340w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/0991f/DSC_0554.webp 680w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/9d77c/DSC_0554.webp 1360w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/27063/DSC_0554.webp 2040w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/82c87/DSC_0554.webp 2720w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/af38d/DSC_0554.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/a0703/DSC_0554.jpg 340w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/5041d/DSC_0554.jpg 680w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/fe1b8/DSC_0554.jpg 1360w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/25fce/DSC_0554.jpg 2040w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/9bc5d/DSC_0554.jpg 2720w,
+/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/4dfd5/DSC_0554.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/fe1b8/DSC_0554.jpg&quot;
+          alt=&quot;DSC 0554&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/715fa33032087b08090b4b5ce0f32adf/fe1b8/DSC_0554.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/88ef645750ae1918d807c7624079c138/4dfd5/DSC_0555.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAME/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAcakSk3B/8QAGhABAAIDAQAAAAAAAAAAAAAAAQIDABESE//aAAgBAQABBQKupTxMnVyxdmkyuLZH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBABAAICAwEAAAAAAAAAAAAAAQARMkECECIx/9oACAEBAAY/Aj3Vvy4OlrrJCZst5bn/xAAaEAEBAQEBAQEAAAAAAAAAAAABEQAhMUFR/9oACAEBAAE/Ib8OA4ZIp4ffuGbf3M4eFAMtng0ucVpHd//aAAwDAQACAAMAAAAQRw//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEVH/2gAIAQMBAT8Quo//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EJhWf//EABwQAQEAAwEAAwAAAAAAAAAAAAERACExUUGBwf/aAAgBAQABPxDRsxqN7zAKGq62dzzWWM6ATWLxpDgnrTtwyFkwsT5xpb1j7/c//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/88ef645750ae1918d807c7624079c138/53e9f/DSC_0555.webp 340w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/0991f/DSC_0555.webp 680w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/9d77c/DSC_0555.webp 1360w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/27063/DSC_0555.webp 2040w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/82c87/DSC_0555.webp 2720w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/af38d/DSC_0555.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/88ef645750ae1918d807c7624079c138/a0703/DSC_0555.jpg 340w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/5041d/DSC_0555.jpg 680w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/fe1b8/DSC_0555.jpg 1360w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/25fce/DSC_0555.jpg 2040w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/9bc5d/DSC_0555.jpg 2720w,
+/gatsby_test/static/88ef645750ae1918d807c7624079c138/4dfd5/DSC_0555.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/88ef645750ae1918d807c7624079c138/fe1b8/DSC_0555.jpg&quot;
+          alt=&quot;DSC 0555&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/88ef645750ae1918d807c7624079c138/fe1b8/DSC_0555.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/4dfd5/DSC_0557.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABovl0uWNGf//EABoQAAICAwAAAAAAAAAAAAAAAAECAAMRISP/2gAIAQEAAQUCRMQ1Aqa4G0qcTbP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAADAAEFAAAAAAAAAAAAAAAAAQIRECExMlH/2gAIAQEABj8C65MSmzjSrdOX6bI//8QAGhAAAwADAQAAAAAAAAAAAAAAAAERITGBYf/aAAgBAQABPyHDb3DZU7ciIPZFYZT1g1Pg64kun//aAAwDAQACAAMAAAAQ6/8A/8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQMBAT8QSf/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCRj//EAB4QAQEAAwABBQAAAAAAAAAAAAERACFBMVFhcbHh/9oACAEBAAE/EGnw6M16R+8orggbnDvceb7ZfzDcqJExWrUmCdR3jjbni3yesHXxvP/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/53e9f/DSC_0557.webp 340w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/0991f/DSC_0557.webp 680w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/9d77c/DSC_0557.webp 1360w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/27063/DSC_0557.webp 2040w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/82c87/DSC_0557.webp 2720w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/af38d/DSC_0557.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/a0703/DSC_0557.jpg 340w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/5041d/DSC_0557.jpg 680w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/fe1b8/DSC_0557.jpg 1360w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/25fce/DSC_0557.jpg 2040w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/9bc5d/DSC_0557.jpg 2720w,
+/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/4dfd5/DSC_0557.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/fe1b8/DSC_0557.jpg&quot;
+          alt=&quot;DSC 0557&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/4ed008f95390e4ff170a228f6ec4d4f5/fe1b8/DSC_0557.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/4dfd5/DSC_0559.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAP/2gAMAwEAAhADEAAAAc6oxmuiJP8A/8QAGxAAAgMAAwAAAAAAAAAAAAAAAAIBAxIREyH/2gAIAQEAAQUC7psJtsaF2sLs5Y9P/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AUf/xAAbEAACAgMBAAAAAAAAAAAAAAAAAQIRITEyE//aAAgBAQAGPwJqdSvGjycSo6MM6Z0z/8QAHRAAAgIBBQAAAAAAAAAAAAAAAREAMSFBUWFx8P/aAAgBAQABPyHOSxQUg2YlkLSHWG2hAKeoklsPM8DP/9oADAMBAAIAAwAAABDMP//EABcRAQADAAAAAAAAAAAAAAAAAAABIXH/2gAIAQMBAT8QimH/xAAZEQACAwEAAAAAAAAAAAAAAAAAAREhMVH/2gAIAQIBAT8QdvSPT//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExceGR/9oACAEBAAE/EA7abWb81WsfRpEeAxzoiJmwh7lWf5RTUilOUH2p/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/53e9f/DSC_0559.webp 340w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/0991f/DSC_0559.webp 680w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/9d77c/DSC_0559.webp 1360w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/27063/DSC_0559.webp 2040w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/82c87/DSC_0559.webp 2720w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/af38d/DSC_0559.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/a0703/DSC_0559.jpg 340w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/5041d/DSC_0559.jpg 680w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/fe1b8/DSC_0559.jpg 1360w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/25fce/DSC_0559.jpg 2040w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/9bc5d/DSC_0559.jpg 2720w,
+/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/4dfd5/DSC_0559.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/fe1b8/DSC_0559.jpg&quot;
+          alt=&quot;DSC 0559&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/7e1347863e93f6da67902f5f915c0086/fe1b8/DSC_0559.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/b4ac1/P1020406.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.10917030567687%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABVNzooqIv/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEDAhESITL/2gAIAQEAAQUC7idBgJ3NIciZ/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/AYx//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAIR/9oACAECAQE/Aaa//8QAGxAAAgIDAQAAAAAAAAAAAAAAACEBEQIQQVH/2gAIAQEABj8Cucn4Ke6cCLP/xAAcEAADAAEFAAAAAAAAAAAAAAAAAREhMVFxkaH/2gAIAQEAAT8hcwfrEtxfgcONIxYMkIj5HULXc//aAAwDAQACAAMAAAAQZB//xAAXEQADAQAAAAAAAAAAAAAAAAAAASER/9oACAEDAQE/EFxDqH//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QWsK//8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBYXH/2gAIAQEAAT8QY0BSUBbRnyN6tYLYwvPJd2HvMBBE6eCN4xXouTuArILxs//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/53e9f/P1020406.webp 340w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/0991f/P1020406.webp 680w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/9d77c/P1020406.webp 1360w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/27063/P1020406.webp 2040w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/82c87/P1020406.webp 2720w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/bda9d/P1020406.webp 3664w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/a0703/P1020406.jpg 340w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/5041d/P1020406.jpg 680w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/fe1b8/P1020406.jpg 1360w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/25fce/P1020406.jpg 2040w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/9bc5d/P1020406.jpg 2720w,
+/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/b4ac1/P1020406.jpg 3664w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/fe1b8/P1020406.jpg&quot;
+          alt=&quot;P1020406&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/370721917f21ba8fc51302915e2b1cb2/fe1b8/P1020406.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/183e254ac6d02ba175660208f86250c9/b4ac1/P1020407.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.10917030567687%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABXnPkhJGv/8QAGxAAAgMAAwAAAAAAAAAAAAAAAgMAARIRIjH/2gAIAQEAAQUCawCrru/SXwJJYMyU/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AWf/xAAbEAADAAIDAAAAAAAAAAAAAAAAARECEiExcf/aAAgBAQAGPwJq1+FOMUzZMux2f//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQVFxgf/aAAgBAQABPyH0Ia1uGAqm9QUgDuElGuAgmD5EHJvyf//aAAwDAQACAAMAAAAQaw//xAAXEQADAQAAAAAAAAAAAAAAAAABEBEh/9oACAEDAQE/EAmr/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQEAUf/aAAgBAgEBPxCmDid3/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFBUZH/2gAIAQEAAT8QvIpEIYCj31BqQppo+xwGNCpuYOIsIc+EHikeAZNwVqx//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/183e254ac6d02ba175660208f86250c9/53e9f/P1020407.webp 340w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/0991f/P1020407.webp 680w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/9d77c/P1020407.webp 1360w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/27063/P1020407.webp 2040w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/82c87/P1020407.webp 2720w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/bda9d/P1020407.webp 3664w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/183e254ac6d02ba175660208f86250c9/a0703/P1020407.jpg 340w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/5041d/P1020407.jpg 680w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/fe1b8/P1020407.jpg 1360w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/25fce/P1020407.jpg 2040w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/9bc5d/P1020407.jpg 2720w,
+/gatsby_test/static/183e254ac6d02ba175660208f86250c9/b4ac1/P1020407.jpg 3664w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/183e254ac6d02ba175660208f86250c9/fe1b8/P1020407.jpg&quot;
+          alt=&quot;P1020407&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/183e254ac6d02ba175660208f86250c9/fe1b8/P1020407.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/b4ac1/P1020408.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.10917030567687%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAEg0dc81H//xAAcEAACAgIDAAAAAAAAAAAAAAABAgARAwQSITH/2gAIAQEAAQUC2EqFFVeMyWIPH6P/xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQMBAT8BEX//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8BNX//xAAcEAACAQUBAAAAAAAAAAAAAAAAASEQESIygeH/2gAIAQEABj8Cya4jaT0u3Nf/xAAbEAACAwADAAAAAAAAAAAAAAAAARExQVFxgf/aAAgBAQABPyFrXmWW9DyE0jEybSa4EUZ//9oADAMBAAIAAwAAABCQH//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxA4J//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxB6p//EABsQAQADAQEBAQAAAAAAAAAAAAERITEAUUFh/9oACAEBAAE/ELDxB0AyvvM4QEwFF8fH84JVo+06Jlasoa3zqiJ4MOio0Gu//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/53e9f/P1020408.webp 340w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/0991f/P1020408.webp 680w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/9d77c/P1020408.webp 1360w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/27063/P1020408.webp 2040w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/82c87/P1020408.webp 2720w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/bda9d/P1020408.webp 3664w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/a0703/P1020408.jpg 340w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/5041d/P1020408.jpg 680w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/fe1b8/P1020408.jpg 1360w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/25fce/P1020408.jpg 2040w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/9bc5d/P1020408.jpg 2720w,
+/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/b4ac1/P1020408.jpg 3664w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/fe1b8/P1020408.jpg&quot;
+          alt=&quot;P1020408&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/03f39eeff6a6ebb6ea92d3b23441d452/fe1b8/P1020408.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Firepick, update 3]]></title><description><![CDATA[(thanks to Juha, from the FirePick Google group ) I got the printed plastic parts. after a minor cleanup of the captitive nuts seats. here…]]></description><link>https://alessiomorale.github.io/gatsby_test/2015-02-20-firepick-update-3/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2015-02-20-firepick-update-3/</guid><pubDate>Thu, 19 Feb 2015 22:58:38 GMT</pubDate><content:encoded>&lt;p&gt;(thanks to Juha, from the FirePick Google group ) I got the printed plastic parts.&lt;/p&gt;
+&lt;p&gt;after a minor cleanup of the captitive nuts seats. here is part of the delta mechanism assembled:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/f35273be2590fefb8fedf0348540e004/4dfd5/DSC_0539.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAE5M/ogyxH/xAAbEAEAAgIDAAAAAAAAAAAAAAACAQQDEhETIf/aAAgBAQABBQLBj2npBl+Ou+LBtGA52X//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAACAgEFAAAAAAAAAAAAAAAAAREhMQIiMlKh/9oACAEBAAY/Au1YOLwNJk+GtW90jZ//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMWFR/9oACAEBAAE/ISVrZjuWC0DykOqRxL/nHqIFZR6XqdVZ/9oADAMBAAIAAwAAABDXL//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EGf/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAxIUFRgWFxof/aAAgBAQABPxBBU9yhdcbwPUeqn6Q+8rq8xdnWEAcm1BE4WeK+sQ84Oou3xm1oyUkOjP/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/f35273be2590fefb8fedf0348540e004/53e9f/DSC_0539.webp 340w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/0991f/DSC_0539.webp 680w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/9d77c/DSC_0539.webp 1360w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/27063/DSC_0539.webp 2040w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/82c87/DSC_0539.webp 2720w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/af38d/DSC_0539.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/f35273be2590fefb8fedf0348540e004/a0703/DSC_0539.jpg 340w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/5041d/DSC_0539.jpg 680w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/fe1b8/DSC_0539.jpg 1360w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/25fce/DSC_0539.jpg 2040w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/9bc5d/DSC_0539.jpg 2720w,
+/gatsby_test/static/f35273be2590fefb8fedf0348540e004/4dfd5/DSC_0539.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/f35273be2590fefb8fedf0348540e004/fe1b8/DSC_0539.jpg&quot;
+          alt=&quot;DSC 0539&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/f35273be2590fefb8fedf0348540e004/fe1b8/DSC_0539.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/4dfd5/DSC_0542.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAcymK6M4V//EABsQAAEEAwAAAAAAAAAAAAAAAAMAAhETAQQU/9oACAEBAAEFAgDsdzSSMIJKnF2Jav/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAIDAQEAAAAAAAAAAAAAAAERAAIQIWH/2gAIAQEABj8CXktxVxwJg5//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMRBx/9oACAEBAAE/IabLOrPmdTSo+DqTaTBfqJMKms//2gAMAwEAAgADAAAAEHcP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qp//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EEf/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMWFxsf/aAAgBAQABPxCmkO8Q/Wwq6Gr4NG+usEvVpqzjCpKdl1c2XAFwNN8byMt6DJ//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/53e9f/DSC_0542.webp 340w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/0991f/DSC_0542.webp 680w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/9d77c/DSC_0542.webp 1360w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/27063/DSC_0542.webp 2040w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/82c87/DSC_0542.webp 2720w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/af38d/DSC_0542.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/a0703/DSC_0542.jpg 340w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/5041d/DSC_0542.jpg 680w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/fe1b8/DSC_0542.jpg 1360w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/25fce/DSC_0542.jpg 2040w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/9bc5d/DSC_0542.jpg 2720w,
+/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/4dfd5/DSC_0542.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/fe1b8/DSC_0542.jpg&quot;
+          alt=&quot;DSC 0542&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/dda4e3efe36051d029d9c01708424ee5/fe1b8/DSC_0542.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Then it is the turn of the three arms secured to the bearing using nuts and washers. I used nilock nuts to prevent them from untightening&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/4dfd5/DSC_0544.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQD/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAASVw0zGVLP/EAB0QAAICAQUAAAAAAAAAAAAAAAECAwQSABEhIjH/2gAIAQEAAQUCgXKQ112I5VsS9nr7r//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEBECIWH/2gAIAQEABj8CQ8q5FmnH/8QAGBABAQEBAQAAAAAAAAAAAAAAAREAUTH/2gAIAQEAAT8hIToQbTJMO5AHuJhrybrf/9oADAMBAAIAAwAAABD8H//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAEDAQE/EIf/xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8QNX//xAAcEAEAAwEAAwEAAAAAAAAAAAABABEhMUFRYXH/2gAIAQEAAT8QAIpHpe1NUCg6XxgNMEEa+rdiTGK4ip7+QPJ+z//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/53e9f/DSC_0544.webp 340w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/0991f/DSC_0544.webp 680w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/9d77c/DSC_0544.webp 1360w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/27063/DSC_0544.webp 2040w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/82c87/DSC_0544.webp 2720w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/af38d/DSC_0544.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/a0703/DSC_0544.jpg 340w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/5041d/DSC_0544.jpg 680w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/fe1b8/DSC_0544.jpg 1360w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/25fce/DSC_0544.jpg 2040w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/9bc5d/DSC_0544.jpg 2720w,
+/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/4dfd5/DSC_0544.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/fe1b8/DSC_0544.jpg&quot;
+          alt=&quot;DSC 0544&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/90e366c848723a826336d3b35c0bcc47/fe1b8/DSC_0544.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;A simple solution for feets: they are 19mm round soft plastic feets, sold in group of 8 for around 2€, and are used to be fitted in chair legs to dampen noise caused by moving them. With a bit of work an M5 bolt does fit nicely. I added a large washer to spread the weight evenly on the feet and prevent it to be ruined by the alu profile’s sharp edges.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/gatsby_test/static/f050763c610049f04a3eac205bec833c/4dfd5/DSC_0537-1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin: 7vw 0; max-width: 1360px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAB56qYZxFv/8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAAwQR/9oACAEBAAEFAkzOwaoidlGh6g1rwnp//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFxEAAwEAAAAAAAAAAAAAAAAAARARQf/aAAgBAgEBPwEXV//EABkQAAIDAQAAAAAAAAAAAAAAAAABEBExIf/aAAgBAQAGPwK46kVqNLP/xAAdEAEAAgICAwAAAAAAAAAAAAABABEhMUFRYXGh/9oACAEBAAE/IW4DPmO/Jvteo4NcQ8Sk21cty7oZ6n//2gAMAwEAAgADAAAAELzP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EG1//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxDViI//xAAbEAEBAQADAQEAAAAAAAAAAAABEQAhUWFx8f/aAAgBAQABPxBMBgBmn3OjhRqcx/cuqK5uEqke77PPMmiKsIr5lTBdQQ3/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/f050763c610049f04a3eac205bec833c/53e9f/DSC_0537-1.webp 340w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/0991f/DSC_0537-1.webp 680w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/9d77c/DSC_0537-1.webp 1360w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/27063/DSC_0537-1.webp 2040w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/82c87/DSC_0537-1.webp 2720w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/af38d/DSC_0537-1.webp 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/gatsby_test/static/f050763c610049f04a3eac205bec833c/a0703/DSC_0537-1.jpg 340w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/5041d/DSC_0537-1.jpg 680w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/fe1b8/DSC_0537-1.jpg 1360w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/25fce/DSC_0537-1.jpg 2040w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/9bc5d/DSC_0537-1.jpg 2720w,
+/gatsby_test/static/f050763c610049f04a3eac205bec833c/4dfd5/DSC_0537-1.jpg 3264w&quot;
+          sizes=&quot;(max-width: 1360px) 100vw, 1360px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+          src=&quot;/gatsby_test/static/f050763c610049f04a3eac205bec833c/fe1b8/DSC_0537-1.jpg&quot;
+          alt=&quot;DSC 0537 1&quot;
+          title=&quot;&quot;
+          src=&quot;/gatsby_test/static/f050763c610049f04a3eac205bec833c/fe1b8/DSC_0537-1.jpg&quot;
+        /&gt;
+      &lt;/picture&gt;
+      &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Now it is time to wait for some other pieces to arrive, the most important being steppers and angle brackets.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Firepick, let's start!]]></title><description><![CDATA[And here we are 🙂 let’s start building my FPD-032 beginning with Plates: bottom, Delta Motor and Top plates. They are milled from 5mm…]]></description><link>https://alessiomorale.github.io/gatsby_test/2015-02-08-firepick-lets-start/</link><guid isPermaLink="false">https://alessiomorale.github.io/gatsby_test/2015-02-08-firepick-lets-start/</guid><pubDate>Sun, 08 Feb 2015 15:13:54 GMT</pubDate><content:encoded>&lt;p&gt;And here we are 🙂&lt;/p&gt;
+&lt;p&gt;let’s start building my FPD-032 beginning with Plates: bottom, Delta Motor and Top plates.&lt;/p&gt;
+&lt;p&gt;They are milled from 5mm Polycarbonate (lexan) sheet.&lt;/p&gt;
+&lt;p&gt;I’m working toward having it working as 3D printer as soon as possible so that i can start to develop the rest of functionalities.&lt;/p&gt;
+&lt;p&gt;I’m going to use &lt;a href=&quot;http://www.hobbyking.com/hobbyking/store/__13099__M3_Alloy_Ball_Joint_5pcs_bag_.html&quot;&gt;RC ball joints&lt;/a&gt; and 5mm carbon fiber tubes with a m3 threaded rod epoxy’ed inside.&lt;/p&gt;</content:encoded></item></channel></rss>
