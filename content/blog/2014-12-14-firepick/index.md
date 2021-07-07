@@ -1,6 +1,6 @@
 ---
 id: 365
-title: FIrePick
+title: FirePick
 date: 2014-12-14T00:00:14+02:00
 author: AlessioMorale
 layout: post
@@ -14,6 +14,7 @@ tags:
   - firepick
   - pickandplace
 important: false
+thumbnail: firepick.png
 ---
 
 Having the need to build both a pick&place and a 3D printer I stumbled upon http://firepick1.github.io/
