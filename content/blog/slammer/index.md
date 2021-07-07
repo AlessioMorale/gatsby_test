@@ -35,7 +35,7 @@ In its current configuration it uses four gearmotors for its locomotion using th
 
 Recently I update the mechanical part using two planetary gear motors and a system of pulley and belts to link front and rear wheels on each side.
 
-The control board is still my trusted [UNAV2 prototype](/2020/02/03/unav2-integrated-board-prototype/) (links to the [hardware](https://github.com/AlessioMorale/unav2_hardware/tree/master/integrated_board), [firmware](https://github.com/AlessioMorale/unav2_stm32) and [ROS drivers](https://github.com/AlessioMorale/unav2_ros)).
+The control board is still my trusted [UNAV2 prototype](/2020-02-03-unav2-integrated-board-prototype/) (links to the [hardware](https://github.com/AlessioMorale/unav2_hardware/tree/master/integrated_board), [firmware](https://github.com/AlessioMorale/unav2_stm32) and [ROS drivers](https://github.com/AlessioMorale/unav2_ros)).
 
 ![uNav2](DSC8028.jpg)
 
