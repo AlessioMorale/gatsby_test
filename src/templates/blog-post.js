@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Tags from "../components/tag"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -36,7 +37,9 @@ class BlogPostTemplate extends React.Component {
               />
             </div>
           )}
-
+          <div className="post-content-body">
+            <Tags tags={post.frontmatter.tags} />
+          </div>
           <div
             className="post-content-body"
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -70,6 +73,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        tags
         date(formatString: "MMMM DD, YYYY")
         description
         thumbnail {

@@ -38,9 +38,7 @@ const Layout = props => {
                 <Link to={`/slammer/`}>Projects/Slammer</Link>
               </li>
               <li className="nav-slammer" role="menuitem">
-                <Link to={`/2020-02-03-unav2-integrated-board-prototype/`}>
-                  Projects/Unav2
-                </Link>
+                <Link to={`/unav2/`}>Projects/Unav2</Link>
               </li>
               <li className="nav-tags" role="menuitem">
                 <Link to={`/tags`}>Tags</Link>
